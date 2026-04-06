@@ -1,0 +1,67 @@
+<!--// left side //-->
+            <aside class="side">
+            [% BLOCK SERVICE_BOX ; IF SERVICE.size %]
+                <div class="box_1">
+                    <div class="caption"><span class="in"><span class="text">Õ¿ÿ» ”—À”√»</span></span></div>
+                    [% FOREACH SERVICE %]
+                      <div class="h4"><a class="link" href="[% url %]">[% header %]</a></div>
+                      [% IF child.size %]
+                      <ul class="s list_1">
+                        [% FOREACH child %]
+                          <li class="item"><a class="link" href="[% url %]">[% header %]</a></li>
+                        [% END %]
+                      </ul>
+                      [% END %]
+                    [% END %]
+                </div>
+            [% END ; END %]
+            
+            [% BLOCK OBJECT_BOX ; IF OBJECT.size %]
+                <div class="box_1">
+                    <div class="caption"><span class="in"><span class="text">Õ¿ÿ» Œ¡⁄≈ “€</span></span></div>
+
+                    <div class="carousel mb-16 js-carousel">
+                        <div class="in">
+                            <ul class="s list">
+                            [% FOREACH OBJECT %]
+                                <li class="item">
+                                    <a class="link js-lightbox" data-lightbox="gal1" title="[% header | htmlit %]" href="[% photo_and_path_mini3 %]">
+                                      <span class="fig"><img class="img" src="[% photo_and_path_mini2 %]" alt=""/></span>
+                                      <span class="text">[% header %]</span>
+                                    </a>
+                                </li>
+                            [% END %]
+                            </ul>
+                        </div>
+                        <ul class="s menu"></ul>
+                        <a class="prev" href="#"></a> <a class="next" href="#"></a>
+                    </div>
+                    <p><a class="more" href="/object">¬ÒÂ Ó·˙ÂÍÚ˚</a></p>
+                </div>
+            [% END ; END %]
+            
+            [% BLOCK ARTICLE_BOX ; IF ARTICLE.size %]
+              <div class="box_1">
+                        <div class="caption"><span class="in"><span class="text">—“¿“‹»</span></span></div>
+                        <div class="in">
+                        <ul class="s list_2">
+                          [% FOREACH ARTICLE %]
+                            <li class="item">
+                                <a class="link" href="[% url %]">
+                                  [% IF photo %]
+                                    <span class="fig"><img class="img" src="[% photo_and_path_mini1 %]" alt=""/> </span>
+                                  [% END %]
+                                  <span class="text">[% header %]</span> 
+                                </a>
+                            </li>
+                          [% END %]
+                        </ul>
+
+                        <p><a class="more" href="/article">¬ÒÂ ÒÚ‡Ú¸Ë</a></p>
+
+                    </div>
+            [% END ; END %]
+            
+            [% FOREACH b IN LSIDE ; INCLUDE "$b" ; END %]
+            </aside>
+            <!--// end left side //-->

@@ -1,0 +1,31 @@
+                <nav class="crumbs">
+                    <ul class="s list">
+                        <li class="item"><a class="link" href="/">Главная</a></li>
+                        <li class="item">Карта сайта</li>
+                    </ul>
+                </nav>
+                <div class="h1"><span class="text">КАРТА САЙТА</span></div>
+
+                <ul class="s map">
+                  [% FOREACH top_menu %]
+                    <li class="item">
+                      <a class="link" href="[% url %]">[% header %]</a>
+                      [% IF child.size %]
+                        <ul class="s map__sub">
+                          [% FOREACH child %]
+                            <li class="item">
+                              <a class="link" href="[% url %]">[% header %]</a>
+                              [% IF child.size %]
+                                <ul class="s map__sub__sub">
+                                  [% FOREACH child %]
+                                    <li class="item"><a class="link" href="[% url %]">[% header %]</a></li>
+                                  [% END %]
+                                </ul>
+                              [% END %]
+                            </li>
+                          [% END %]
+                        </ul>
+                      [% END %]
+                    </li>
+                  [% END %]
+                </ul>

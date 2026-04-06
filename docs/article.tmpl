@@ -1,0 +1,28 @@
+                <nav class="crumbs">
+                    <ul class="s list">
+                        <li class="item"><a class="link" href="/">Главная</a></li>
+
+                        <li class="item">Статьи</li>
+                    </ul>
+                </nav>
+
+                <div class="h1"><span class="text">СТАТЬИ</span></div>
+
+                <ul class="s list_4">
+                  [% FOREACH LIST %]
+                    <li class="item">
+                      [% IF photo %]
+                        <figure class="fig">
+                            <a class="link" href="[% url %]"><img class="img" src="[% photo_and_path_mini2 %]" alt=""/></a>
+                        </figure>
+                      [% END %]
+                        <div class="context">
+                            <p class="title"><a class="link" href="[% url %]">[% header %]</a></p>
+                            [% anons %]
+                        </div>
+                    </li>
+                  [% END %]
+                </ul>
+
+                <hr/>
+                [% INCLUDE paging.tmpl %]

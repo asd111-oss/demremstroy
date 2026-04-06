@@ -1,0 +1,49 @@
+                <nav class="crumbs">
+                    <ul class="s list">
+                        <li class="item"><a class="link" href="/">Главная</a></li>
+
+                        <li class="item">Задать вопрос</li>
+                    </ul>
+                </nav>
+
+                <div class="h1"><span class="text">ЗАДАТЬ ВОПРОС</span></div>
+                [% IF fb_err == 1 %]<p style="color:#090;">Спасибо, ваше сообщение отправлено!</p>
+                [% ELSIF fb_err != 0 ; FOREACH e IN fb_err %]<p style="color:#f00;">[% e %]</p>[% END ; END %]
+
+                <form class="ph-6 js-validate" method="post" action="" onsubmit="yaCounter46877508.reachGoal('question');return true;">
+                <input type="hidden" name="fb" value="form_send">
+                <input type="hidden" name="af" value="fb">
+                    <p>
+                        <label class="w-220 mr-10 pt-6 ar" for="name">ФИО:</label>
+                        <input id="name" class="field w-320 mr-3" type="text" required="required" data-error-message-empty="вы не представились" name="name" value="[% form_vls.name UNLESS fb_err == 1 %]"/>
+                        <span class="star">*</span>
+                    </p>
+
+                    <p>
+                        <label class="w-220 mr-10 pt-6 ar" for="email">e-mail:</label>
+                        <input id="email" class="field w-320 mr-3" type="email" required="required" data-error-message-empty="вы не указали email" data-error-message-correct="вы не верно указали email" name="email" value="[% form_vls.email UNLESS fb_err == 1 %]"/>
+                        <span class="star">*</span>
+                    </p>
+
+                    <p>
+                        <label class="w-220 mr-10 pt-6 ar" for="phone">телефон:</label>
+                        <input id="phone" class="field w-320 mr-3" type="tel" data-error-message-correct="вы не верно указали телефон" name="phone" value="[% form_vls.phone UNLESS fb_err == 1 %]"/>
+                    </p>
+
+                    <p>
+                        <label class="w-220 mr-10 pt-6 ar" for="question">вопрос:</label>
+                        <textarea id="question" class="field w-320 mr-3" rows="4" required="required" data-error-message-empty="вы не указали вопрос" name="message" value="[% form_vls.message UNLESS fb_err == 1 %]">[% form_vls.message UNLESS fb_err == 1 %]</textarea>
+                        <span class="star">*</span>
+                    </p>
+
+                    <p>
+                        <label class="w-220 mr-10 pt-6 ar" for="captcha">проверочный код:</label>
+                        <span class="captcha w-75 mr-2"><script>out_capture();</script></span>
+                        <input id="captcha" class="field w-240 mr-3" type="text" name="capture_str" required="required" data-error-message-empty="вы не представились"/>
+                        <span class="star">*</span>
+                    </p>
+
+                    <p style="width: 555px" class="ar">
+                        <button class="btn_1" type="submit">отправить</button>
+                    </p>
+                <p class="f-10">Заполняя форму, Вы даете согласие на <a href="/securitypolicy">обработку своих персональных данных</a></p></form>

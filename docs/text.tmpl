@@ -1,0 +1,12 @@
+                <nav class="crumbs">
+                    <ul class="s list">
+                        <li class="item"><a class="link" href="/">Главная</a></li>
+                        [% import(content) %]
+                        <li class="item">[% header %]</li>
+                    </ul>
+                </nav>
+
+                <div class="h1"><span class="text">[% header %]</span></div>
+                [% body %]
+                <hr/>
+                <p><a class="back" href="javascript:history.back();">Назад</a></p>

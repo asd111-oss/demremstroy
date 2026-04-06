@@ -1,0 +1,109 @@
+            <!--// content //-->
+            <section class="content">
+              [% IF page_type == 'main' %]
+                [% IF SERVICE.size || OBJECT.size || ARTICLE.size || FAQ.size %]
+                <div class="o-cols-4">
+                <div class="cols-4">
+
+[% IF SERVICE.size %]
+                    <div class="col">
+                        <div class="caption"><span class="in"><span class="text">Õ¿ÿ» ”—À”√»</span></span></div>
+                        [% FOREACH SERVICE %]
+                           <div class="h4"><a class="link" href="[% url %]">[% header %]</a></div>
+                           [% IF child.size %]
+                           <ul class="s list_1">
+                             [% FOREACH child %]
+                               <li class="item"><a class="link" href="[% url %]">[% header %]</a></li>
+                             [% END %]
+                           </ul>
+                          [% END %]
+                        [% END %]
+                    </div>
+[% END %]
+
+[% IF OBJECT.size %]
+                    <div class="col">
+                        <div class="caption"><span class="in"><span class="text">Õ¿ÿ» Œ¡⁄≈ “€</span></span></div>
+                        <div class="carousel js-carousel">
+                            <div class="in">
+                                <ul class="s list">
+                                  [% FOREACH OBJECT %]
+                                    <li class="item">
+                                        <a class="link js-lightbox" title="[% header %]" data-lightbox="gal1" href="[% photo_and_path_mini3 %]">
+                                        [% IF photo %]
+                                          <span class="fig"><img class="img" src="[% photo_and_path_mini1 %]" alt=""/></span>
+                                        [% END %]
+                                        <span class="text">[% header %]</span>
+                                        </a>
+                                     </li>
+                                   [% END %]
+                                </ul>
+                            </div>
+
+                            <ul class="s menu"></ul>
+                            <a class="prev" href="#"></a> <a class="next" href="#"></a>
+                        </div>
+                        <p><a class="more" href="/object">—ÏÓÚÂÚ¸ ‚ÒÂ</a></p>
+                    </div>
+[% END %]
+
+[% IF ARTICLE.size %]
+                    <div class="col">
+                        <div class="caption"><span class="in"><span class="text">—“¿“‹»</span></span></div>
+                        <ul class="s list_2">
+                        [% FOREACH ARTICLE %]
+                            <li class="item">
+                                <a class="link" href="[% url %]">
+                                  [% IF photo %]
+                                    <span class="fig"><span class="in"><img class="img" src="[% photo_and_path_mini1 %]" alt=""/></span> </span>
+                                  [% END %]
+                                  <span class="text">[% header %]</span> 
+                                </a>
+                            </li>
+                        [% END %]
+                        </ul>
+                        <p><a class="more" href="/article">¬ÒÂ ÒÚ‡Ú¸Ë</a></p>
+                    </div>
+[% END %]
+
+[% IF FAQ.size %]
+                    <div class="col">
+                        <div class="caption"><span class="in"><span class="text">¬Œœ–Œ—-Œ“¬≈“</span></span></div>
+                        <dl class="list_faq js-faq">
+                          [% FOREACH FAQ %]
+                            <dt class="question">
+                                <a class="link" href="#">[% header %]</a>
+                            </dt>
+                            <dd class="answer">[% body %]</dd>
+                          [% END %]
+                        </dl>
+                        <p><a class="more" href="/faq">◊ËÚ‡Ú¸ ‚ÒÂ</a></p>
+                    </div>
+[% END %]
+                </div>
+                </div>
+[% END %]
+
+
+                <div class="cx">
+                  [% IF blago.body %]
+                    <div class="fr w-230">
+                        <div class="h1"><span class="text">¡À¿√Œƒ¿–ÕŒ—“»</span></div>
+
+                        [% blago.body %]
+
+                    </div>
+                  [% END %]
+                    
+                    <div class="o pr-18">
+
+                        <div class="h1"><span class="text">Œ  ŒÃœ¿Õ»»</span></div>
+
+                        [% content.body %]
+
+                    </div>
+
+                </div>
+            [% ELSE ; t = page_type _ '.tmpl' ; INCLUDE "$t"; END %]
+            </section>
+            <!--// end content //-->
