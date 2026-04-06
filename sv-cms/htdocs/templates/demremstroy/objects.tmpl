@@ -1,0 +1,28 @@
+                <nav class="crumbs">
+                    <ul class="s list">
+                        <li class="item"><a class="link" href="#">Главная</a></li>
+
+                        <li class="item">Наши объекты</li>
+                    </ul>
+                </nav>
+                [% import(content) %]
+                <div class="h1"><span class="text">[% header %]</span></div>
+                [% body %]
+
+                <ul class="s list_5">
+                  [% FOREACH LIST %]
+                    <li class="item">
+                        <p class="title"><a class="js-lightbox" data-lightbox="gal2" title="[% header | htmlit %]" href="[% photo_and_path_mini3 %]">
+                            <span class="fig"><img class="img" src="[% photo_and_path_mini1 %]" alt=""/></span>
+                            <span class="text">[% header %]</span> </a></p>
+
+                        [% body %]
+                    </li>
+                  [% END %]
+                </ul>
+
+                <hr/>
+
+               [% INCLUDE paging.tmpl %]
+
+  

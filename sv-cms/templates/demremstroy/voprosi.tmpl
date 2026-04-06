@@ -1,0 +1,18 @@
+                <nav class="crumbs">
+                    <ul class="s list">
+                        <li class="item"><a class="link" href="/">Главная</a></li>
+                        <li class="item">Вопросы и ответы</li>
+                    </ul>
+                </nav>
+                [% import(content) %]
+                <div class="h1"><span class="text">[% header %]</span></div>
+                [% body %]
+                <dl class="faq js-faq">
+                  [% FOREACH LIST %]
+                    <dt class="question"><a class="link" href="#">[% header %]</a></dt>
+                    <dd class="answer">[% body %]</dd>
+                  [% END %]
+                </dl>
+
+                <hr/>
+                [% INCLUDE paging.tmpl %]

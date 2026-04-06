@@ -1,0 +1,16 @@
+#Khabusev Phanis [pmk@trade.su] 3.04.2012+
+#old managers
+#in structure need add plugins=>['find::export_xls']
+
+$form->{not_perpage}=1;
+$plugin={
+  description=>'E-commerce',
+# icon=>q{/manager/plugins/find/icon_xls.jpg},
+  code_out=>q{
+    print "<ul>";
+    map { print '<li>Field '.$_.': <input type="text" name="p'.$_.'" value="'.$_.'"/></li>"; } @(1..10);
+    print "</ul>";
+  }
+};
+#Khabusev Phanis [pmk@trade.su] 3.04.2012-
+

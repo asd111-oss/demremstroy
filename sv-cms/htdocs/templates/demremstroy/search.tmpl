@@ -1,0 +1,34 @@
+                <nav class="crumbs">
+                    <ul class="s list">
+                        <li class="item"><a class="link" href="/">Главная</a></li>
+                        <li class="item">Поиск по сайту</li>
+                    </ul>
+                </nav>
+
+                <div class="h1"><span class="text">ПОИСК ПО САЙТУ</span></div>
+
+                <form method="post" action="">
+                    <p class="mb-16">
+                        <label class="pt-7 mr-7" for="search">Введите слово для поиска:</label>
+                       <span class="search_2">
+                           <input id="search" class="field" type="text" value="[% Q %]" name="search" />
+                            <button class="btn" type="submit"></button>
+                       </span>
+                    </p>
+                </form>
+
+		[% IF Q.size %]
+                <p>Найдено результатов: [% GET_CONTENT_COUNT %]</p>
+
+                <ul class="s list_6">
+                  [% FOREACH LIST %]
+                    <li class="item">
+                        <a class="link" href="[% url %]">[% header %]</a>
+                    </li>
+                  [% END %]
+                </ul>
+                [% END %]
+
+                <hr/>
+
+                [% INCLUDE paging.tmpl %]

@@ -1,0 +1,21 @@
+                <nav class="crumbs">
+                    <ul class="s list">
+                        <li class="item"><a class="link" href="/">Главная</a></li>
+                        <li class="item"><a class="link" href="/service">Услуги</a></li>
+                        [% FOREACH PATH_INFO %]
+                        <li class="item">[% IF loop.last ; header ; ELSE %]<a class="link" href="[% href %]">[% header %]</a>[% END %]</li>
+                        [% END ; import(content) %]
+                    </ul>
+                </nav>
+
+                <div class="h1"><span class="text">[% header %]</span></div>
+                [% IF photo %]
+                  <figure class="fl mr-16"><a class="js-lightbox" href="[% photo_and_path_mini2 %]" title="[% header | htmlit %]"><img src="[% photo_and_path_mini1 %]" alt=""/></a></figure>
+                [% END %]
+
+                <p><a class="btn_2 js-show_modal" onclick="$('#question').val('[% header | htmlit %]');yaCounter46877508.reachGoal('order_click');return true;" href="#modal__feedback">ОТПРАВИТЬ ЗАЯВКУ</a></p>
+                [% body %]
+                <hr/>
+                <p><a class="back" href="javascript:history.back();">Назад</a></p>
+
+    

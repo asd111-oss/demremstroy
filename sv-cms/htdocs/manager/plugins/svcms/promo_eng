@@ -1,0 +1,254 @@
+# Возможность прописывать promo из карточки сущности
+$form->{PLUGINIT}->{ex_promo_eng}=sub{ 
+	my ($in, $tbl) = @_;	
+        $tbl //= 'struct_5367_promo';
+	unless($in){
+		 print 'Не указан внутренний URL при запуске модуля ex_promo_eng';
+		 return;		 
+	}
+	my $ext_url='plugin_promo';
+	if( $ENV{SCRIPT_NAME}=~m/admin_table\.pl$/ || $ENV{SCRIPT_NAME}=~m/find_objects\.pl$/){ 
+		# ФИЛЬТРЫ
+		# 
+		my $in_flt=$in;		
+		
+		$in_flt=~m/^(.*)(\[%id%\])?(.*)$/;
+		my $in_flt_l=$1;
+		my $in_flt_r=$3;
+		
+		
+		@{$form->{fields}}=
+		(	
+			{
+                                description=>'H1',
+                                type=>'filter_extend_text',
+                                name=>'ex_promo_h1',
+                                filter_table=>$tbl,
+                                db_name=>'h1',
+                                extend_where=>qq{$tbl.url = concat('$in_flt+l',wt.$form->{work_table_id},'$in_flt_r')},
+                                left_join=>1
+                         },
+                         {
+                                description=>'H1(Англ)',
+                                type=>'filter_extend_text',
+                                name=>'ex_promo_h1_en',
+                                filter_table=>$tbl,
+                                db_name=>'h1_en',
+                                extend_where=>qq{$tbl.url = concat('$in_flt+l',wt.$form->{work_table_id},'$in_flt_r')},
+                                left_join=>1,
+                        },
+			{
+				description=>'Promo title',
+				type=>'filter_extend_text',
+				name=>'ex_promo_title',
+				filter_table=>$tbl,
+				db_name=>'title',
+				extend_where=>qq{$tbl.url = concat('$in_flt+l',wt.$form->{work_table_id},'$in_flt_r')},
+				left_join=>1
+			},
+			{
+				description=>'Promo title(Англ)',
+				type=>'filter_extend_text',
+				name=>'ex_promo_title_en',
+				filter_table=>$tbl,
+				db_name=>'title_en',
+				extend_where=>qq{$tbl.url = concat('$in_flt+l',wt.$form->{work_table_id},'$in_flt_r')},
+				left_join=>1,
+			},
+			{
+				description=>'Promo description',
+				type=>'filter_extend_text',
+				name=>'ex_promo_description',
+				filter_table=>$tbl, 
+				db_name=>'description',
+				extend_where=>qq{$tbl.url = concat('$in_flt+l',wt.$form->{work_table_id},'$in_flt_r')},
+				left_join=>1
+			},
+			{       
+                                description=>'Promo description(Англ)',
+                                type=>'filter_extend_text',
+                                name=>'ex_promo_description_en',
+                                filter_table=>$tbl, 
+                                db_name=>'description_en',
+                                extend_where=>qq{$tbl.url = concat('$in_flt+l',wt.$form->{work_table_id},'$in_flt_r')},
+                                left_join=>1
+                        },
+			{
+				description=>'Promo keywords',
+				type=>'filter_extend_text',
+				name=>'ex_links',
+				filter_table=>$tbl, 
+				db_name=>'keywords',
+				extend_where=>qq{$tbl.url = concat('$in_flt+l',wt.$form->{work_table_id},'$in_flt_r')},
+				left_join=>1
+			},
+		        {
+                                description=>'Promo keywords(Англ)',
+                                type=>'filter_extend_text',
+                                name=>'ex_links_en',
+                                filter_table=>$tbl,
+                                db_name=>'keywords_en',
+                                extend_where=>qq{$tbl.url = concat('$in_flt+l',wt.$form->{work_table_id},'$in_flt_r')},
+                                left_join=>1
+                        },    
+			{
+				description=>'Promo body',
+				type=>'filter_extend_text',
+				name=>'ex_links',
+				filter_table=>$tbl, 
+				db_name=>'body',
+				extend_where=>qq{$tbl.url = concat('$in_flt+l',wt.$form->{work_table_id},'$in_flt_r')},
+				left_join=>1				
+			},
+			{
+                                description=>'Promo body(Англ)',
+                                type=>'filter_extend_text',
+                                name=>'ex_links',
+                                filter_table=>$tbl,
+                                db_name=>'body',
+                                extend_where=>qq{$tbl.url = concat('$in_flt+l',wt.$form->{work_table_id},'$in_flt_r')},
+                                left_join=>1
+                        }
+
+
+		,@{$form->{fields}});
+		
+	}
+	elsif($ENV{SCRIPT_NAME}=~m/\/edit_form\.pl$/){ 
+		#print "777";
+		my $promo;
+		if($form->{id} && $form->{action} eq 'update'){
+			$promo->{h1}=param('promo_h1');
+                        $promo->{h1_en}=param('promo_h1_en');
+			$promo->{title}=param('promo_title');
+			$promo->{title_en}=param('promo_title_en');
+			$promo->{description}=param('promo_description');
+			$promo->{description_en}=param('promo_description_en');
+			$promo->{keywords}=param('promo_keywords');
+			$promo->{keywords_en}=param('promo_keywords_en');
+			$promo->{body}=param('promo_body');
+			$promo->{body_en}=param('promo_body_en');
+		}
+		else{
+			$in=~s/\[%id%\]/$form->{id}/g;			
+			my $sth=$form->{dbh}->prepare("SELECT url,h1,h1_en,title,title_en,description,description_en,keywords,keywords_en,body,body_en FROM $tbl WHERE project_id=? and url=?");
+			$sth->execute($form->{project}->{project_id},$in);
+			$promo=$sth->fetchrow_hashref();
+		}
+		
+		@{$form->{fields}}=(
+			{
+                                description=>'H1',
+                                type=>'code',
+                                code=>sub{return qq{<input type="text" class="input" value="$promo->{h1}" name="plugin_h1">}},
+                                name=>'h1'
+                        },
+                        {
+                                description=>'H1(Англ)',
+                                type=>'code',
+                                code=>sub{return qq{<input type="text" class="input" value="$promo->{h1_en}" name="plugin_h1_en">}},
+                                name=>'h1_en'
+                        },
+			{
+				description=>'Promo title',
+				type=>'code',
+				code=>sub{return qq{<input type="text" class="input" value="$promo->{title}" name="plugin_title">}},
+				name=>'title'
+			},
+			{
+                                description=>'Promo title(Англ)',
+                                type=>'code',
+                                code=>sub{return qq{<input type="text" class="input" value="$promo->{title_en}" name="plugin_title_en">}},
+                                name=>'title_en'
+                        },
+			{
+				description=>'Promo description',
+				type=>'code',
+				code=>sub{return qq{<input type="text" class="input" value="$promo->{description}" name="plugin_description">}},
+				name=>'description'
+			},
+			{
+                                description=>'Promo description(Англ)',
+                                type=>'code',
+                                code=>sub{return qq{<input type="text" class="input" value="$promo->{description_en}" name="plugin_description_en">}},
+                                name=>'description_en'
+                        },
+			{
+				description=>'Promo keywords',
+				type=>'code',
+				code=>sub{return qq{<input type="text" class="input" value="$promo->{keywords}" name="plugin_keywords">}},
+				name=>'keywords'
+			},
+			{
+                                description=>'Promo keywords(Англ)',
+                                type=>'code',
+                                code=>sub{return qq{<input type="text" class="input" value="$promo->{keywords_en}" name="plugin_keywords_en">}},
+                                name=>'keywords_en'
+                        },
+			{
+				description=>'Promo body',
+				type=>'code',
+				code=>sub{return qq{<textarea name="plugin_body">$promo->{body}</textarea>}},
+				name=>'promo_body'
+			},
+			{
+                                description=>'Promo body(Англ)',
+                                type=>'code',
+                                code=>sub{return qq{<textarea name="plugin_body_en">$promo->{body_en}</textarea>}},
+                                name=>'body_en'
+                        },
+			,@{$form->{fields}});
+
+# ========================================		
+# ФУНКЦИЯ МОДИФИЦИРОВАНИЯ PROMO
+# ========================================
+		my $after_modified=sub{
+			
+			$in=~s/\[%id%\]/$form->{id}/g;
+			my $promo_title=param('plugin_promo_title');			
+			my $promo_description=param('plugin_promo_description');
+			my $promo_keywords=param('plugin_promo_keywords');
+			my $promo_body=param('plugin_promo_body');
+			
+			if($promo_title || $promo_description || $promo_keywords || $promo_body){# Если указан уникальный URL
+				#print "DELETE from promo WHERE project_id=$form->{project}->{project_id} and url='$in'<br>";
+				my $sth=$form->{dbh}->prepare("DELETE from promo WHERE project_id=? and url=?");
+				$sth->execute($form->{project}->{project_id}, $in);
+				
+				$sth=$form->{dbh}->prepare("INSERT INTO promo(project_id,url,promo_title,promo_description,promo_keywords,promo_body) values(?,?,?,?,?,?)");
+				$sth->execute($form->{project}->{project_id},$in,$promo_title,$promo_description,$promo_keywords,$promo_body);
+
+			}
+			else{				
+				my $sth=$form->{dbh}->prepare("DELETE FROM promo WHERE project_id=? and url=?");
+				$sth->execute($form->{project}->{project_id},$in);
+			}
+			
+			foreach my $f (@{$form->{fields}}){
+				if($f->{name} eq 'promo_title' || $f->{name} eq 'promo_description' || $f->{name} eq 'promo_keywords'){
+					$f->{code}=sub{return qq{<input type="text" value="}.param('plugin_'.$f->{name}).qq{" name="plugin_$f->{name}">}};
+				}
+				elsif($f->{name} eq 'promo_body'){
+					$f->{code}=sub{return qq{<textarea name="plugin_$f->{name}">}.param('plugin_'.$f->{name}).q{</textarea>}};
+				}
+			}
+		};
+
+		
+		# модифицируем события
+		$form->{events}->{after_insert}=&add_code_to_event($form->{events}->{after_insert},\&$after_modified);		
+		$form->{events}->{after_update}=&add_code_to_event($form->{events}->{after_update},\&$after_modified);
+	}
+	elsif($ENV{SCRIPT_NAME}=~m/\/delete_element\.pl$/){ 
+	# ========================================
+# Функция очистки таблицы in_ext_url при удалении записи из work_table
+# ========================================
+		my $before_delete=sub{			
+			$in=~s/\[%id%\]/$form->{id}/g;
+			my $sth=$form->{dbh}->prepare("DELETE FROM in_ext_url WHERE project_id=? and in_url=?");
+			$sth->execute($form->{project}->{project_id},$in);			
+		};
+		$form->{events}->{before_delete}=&add_code_to_event($form->{events}->{before_delete},\&$before_delete);
+	}
+}
+

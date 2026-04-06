@@ -1,0 +1,17 @@
+                <nav class="crumbs">
+                    <ul class="s list">
+                        <li class="item"><a class="link" href="/">Главная</a></li>
+                        <li class="item"><a class="link" href="/article">Статьи</a></li>
+                        [% import(content) %]
+                        <li class="item">[% header %]</li>
+                    </ul>
+                </nav>
+
+                <div class="h1"><span class="text">[% header %]</span></div>
+                [% IF photo %]
+                <figure class="fl mr-20"><a class="js-lightbox" title="[% header | htmlit %]" href="[% photo_and_path_mini3 %]"><img src="[% photo_and_path_mini2 %]" alt=""/></a></figure>
+                [% END %]
+                [% body %]
+                <hr/>
+                <p><a class="back" href="javascript:history.back();">Назад</a></p>
+

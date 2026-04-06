@@ -1,0 +1,1827 @@
+artikul = 1|artikul = 1
+header = АВВГ 1 кВ 4*70ож|header = АВВГ 1 кВ 4*70ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184397|rubricator_id = 184397
+price = 439000|price = 439000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [1]
+artikul = 2|artikul = 2
+header = АВВГ 1 кВ 4*70мн|header = АВВГ 1 кВ 4*70мн
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184397|rubricator_id = 184397
+price = 460000|price = 460000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [2]
+artikul = 3|artikul = 3
+header = АВВГ 1 кВ 4*95ож|header = АВВГ 1 кВ 4*95ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184397|rubricator_id = 184397
+price = 612000|price = 612000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [3]
+artikul = 4|artikul = 4
+header = АВВГ 1 кВ 4*95мн|header = АВВГ 1 кВ 4*95мн
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184397|rubricator_id = 184397
+price = 631000|price = 631000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [4]
+artikul = 5|artikul = 5
+header = АВВГ 1 кВ 4*120ож|header = АВВГ 1 кВ 4*120ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184397|rubricator_id = 184397
+price = 713000|price = 713000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [5]
+artikul = 6|artikul = 6
+header = АВВГ 1 кВ 4*120мн|header = АВВГ 1 кВ 4*120мн
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184397|rubricator_id = 184397
+price = 766000|price = 766000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [6]
+artikul = 7|artikul = 7
+header = АВВГ 1 кВ 4*150ож|header = АВВГ 1 кВ 4*150ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184397|rubricator_id = 184397
+price = 903000|price = 903000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [7]
+artikul = 8|artikul = 8
+header = АВВГ 1 кВ 4*150мн|header = АВВГ 1 кВ 4*150мн
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184397|rubricator_id = 184397
+price = 948000|price = 948000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [8]
+artikul = 9|artikul = 9
+header = АВВГ 1 кВ 4*185ож|header = АВВГ 1 кВ 4*185ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184397|rubricator_id = 184397
+price = 1121000|price = 1121000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [9]
+artikul = 10|artikul = 10
+header = АВВГ 1 кВ 4*185мн|header = АВВГ 1 кВ 4*185мн
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184397|rubricator_id = 184397
+price = 1187000|price = 1187000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [10]
+artikul = 11|artikul = 11
+header = АВВГ 1 кВ 4*240|header = АВВГ 1 кВ 4*240
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184397|rubricator_id = 184397
+price = 1491000|price = 1491000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [11]
+artikul = 12|artikul = 12
+header = АВБбШв 1кв 4*70ож|header = АВБбШв 1кв 4*70ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184398|rubricator_id = 184398
+price = 536000|price = 536000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [12]
+artikul = 13|artikul = 13
+header = АВБбШв 1кв 4*70мн|header = АВБбШв 1кв 4*70мн
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184398|rubricator_id = 184398
+price = 550000|price = 550000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [13]
+artikul = 14|artikul = 14
+header = АВБбШв 1кВ 4*95 ож|header = АВБбШв 1кВ 4*95 ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184398|rubricator_id = 184398
+price = 681000|price = 681000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [14]
+artikul = 15|artikul = 15
+header = АВБбШв 1кВ 4*95 мн|header = АВБбШв 1кВ 4*95 мн
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184398|rubricator_id = 184398
+price = 717000|price = 717000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [15]
+artikul = 16|artikul = 16
+header = АВБбШв 1кВ 4*120ож|header = АВБбШв 1кВ 4*120ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184398|rubricator_id = 184398
+price = 796000|price = 796000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [16]
+artikul = 17|artikul = 17
+header = АВБбШв 1кВ 4*120мн|header = АВБбШв 1кВ 4*120мн
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184398|rubricator_id = 184398
+price = 857000|price = 857000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [17]
+artikul = 18|artikul = 18
+header = АВБбШв 1кВ 4*150ож|header = АВБбШв 1кВ 4*150ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184398|rubricator_id = 184398
+price = 1050000|price = 1050000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [18]
+artikul = 19|artikul = 19
+header = АВБбШв 1кВ 4*185ож|header = АВБбШв 1кВ 4*185ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184398|rubricator_id = 184398
+price = 1288000|price = 1288000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [19]
+artikul = 20|artikul = 20
+header = АВБбШв 1кв 4*240|header = АВБбШв 1кв 4*240
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184398|rubricator_id = 184398
+price = 1652000|price = 1652000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [20]
+artikul = 21|artikul = 21
+header = АВВГ 660В 3*2,5ож|header = АВВГ 660В 3*2,5ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184399|rubricator_id = 184399
+price = 36000|price = 36000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [21]
+artikul = 22|artikul = 22
+header = АВВГ 660В 4*2,5ож|header = АВВГ 660В 4*2,5ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184399|rubricator_id = 184399
+price = 38000|price = 38000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [22]
+artikul = 23|artikul = 23
+header = АВВГ 660В 3*10ож|header = АВВГ 660В 3*10ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184399|rubricator_id = 184399
+price = 81000|price = 81000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [23]
+artikul = 24|artikul = 24
+header = АВВГ 660В 3*16ож|header = АВВГ 660В 3*16ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184399|rubricator_id = 184399
+price = 110000|price = 110000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [24]
+artikul = 25|artikul = 25
+header = АВВГ 660В 4*4ож|header = АВВГ 660В 4*4ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184399|rubricator_id = 184399
+price = 52000|price = 52000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [25]
+artikul = 26|artikul = 26
+header = АВВГ 660В 4*6ож|header = АВВГ 660В 4*6ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184399|rubricator_id = 184399
+price = 62000|price = 62000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [26]
+artikul = 27|artikul = 27
+header = АВВГ 660В 4*10ож|header = АВВГ 660В 4*10ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184399|rubricator_id = 184399
+price = 99000|price = 99000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [27]
+artikul = 28|artikul = 28
+header = АВВГ 660В 4*16ож|header = АВВГ 660В 4*16ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184399|rubricator_id = 184399
+price = 135000|price = 135000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [28]
+artikul = 29|artikul = 29
+header = АВВГ 660В 4*25ож|header = АВВГ 660В 4*25ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184399|rubricator_id = 184399
+price = 181000|price = 181000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [29]
+artikul = 30|artikul = 30
+header = АВВГ 660В 4*35ож|header = АВВГ 660В 4*35ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184399|rubricator_id = 184399
+price = 234000|price = 234000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [30]
+artikul = 31|artikul = 31
+header = АВВГ 660В 4*50ож|header = АВВГ 660В 4*50ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184399|rubricator_id = 184399
+price = 372000|price = 372000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [31]
+artikul = 32|artikul = 32
+header = АВБбШв 660В 4*4ож|header = АВБбШв 660В 4*4ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184434|rubricator_id = 184434
+price = 95000|price = 95000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [32]
+artikul = 33|artikul = 33
+header = АВБбШв 660В 4*6ож|header = АВБбШв 660В 4*6ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184434|rubricator_id = 184434
+price = 121000|price = 121000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [33]
+artikul = 34|artikul = 34
+header = АВБбШв 660В 4*10ож|header = АВБбШв 660В 4*10ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184434|rubricator_id = 184434
+price = 162000|price = 162000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [34]
+artikul = 35|artikul = 35
+header = АВБбШв 660В 4*16ож|header = АВБбШв 660В 4*16ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184434|rubricator_id = 184434
+price = 203000|price = 203000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [35]
+artikul = 36|artikul = 36
+header = АВБбШв 660В 4*25ож|header = АВБбШв 660В 4*25ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184434|rubricator_id = 184434
+price = 286000|price = 286000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [36]
+artikul = 37|artikul = 37
+header = АВБбШв 660В 4*35ож|header = АВБбШв 660В 4*35ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184434|rubricator_id = 184434
+price = 358000|price = 358000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [37]
+artikul = 38|artikul = 38
+header = АВБбШв 660В 4*50ож|header = АВБбШв 660В 4*50ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184434|rubricator_id = 184434
+price = 446000|price = 446000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [38]
+artikul = 39|artikul = 39
+header = АВВГ п 660В 2*2,5ож|header = АВВГ п 660В 2*2,5ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184400|rubricator_id = 184400
+price = 17000|price = 17000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [39]
+artikul = 40|artikul = 40
+header = АВВГ п 660В 2*4ож|header = АВВГ п 660В 2*4ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184400|rubricator_id = 184400
+price = 24000|price = 24000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [40]
+artikul = 41|artikul = 41
+header = АВВГ п 660В 2*6ож|header = АВВГ п 660В 2*6ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184400|rubricator_id = 184400
+price = 30000|price = 30000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [41]
+artikul = 42|artikul = 42
+header = АВВГ п 660В 3*2,5ож|header = АВВГ п 660В 3*2,5ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184400|rubricator_id = 184400
+price = 27000|price = 27000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [42]
+artikul = 43|artikul = 43
+header = АВВГ п 660В 3*4ож|header = АВВГ п 660В 3*4ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184400|rubricator_id = 184400
+price = 37000|price = 37000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [43]
+artikul = 44|artikul = 44
+header = АВВГ п 660В 3*6ож|header = АВВГ п 660В 3*6ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184400|rubricator_id = 184400
+price = 47000|price = 47000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [44]
+artikul = 45|artikul = 45
+header = АВВГ п 660В 2*10ож|header = АВВГ п 660В 2*10ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184400|rubricator_id = 184400
+price = 46000|price = 46000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [45]
+artikul = 46|artikul = 46
+header = АВВГ п 660В 2*16ож|header = АВВГ п 660В 2*16ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184400|rubricator_id = 184400
+price = 66900|price = 66900
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [46]
+artikul = 47|artikul = 47
+header = АВВГ п 660В 3*10ож|header = АВВГ п 660В 3*10ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184400|rubricator_id = 184400
+price = 77300|price = 77300
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [47]
+artikul = 48|artikul = 48
+header = АВВГ п 660В 3*16ож|header = АВВГ п 660В 3*16ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184400|rubricator_id = 184400
+price = 112360|price = 112360
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [48]
+artikul = 49|artikul = 49
+header = ВВГ нг п (А) LS — 2*1,5ож|header = ВВГ нг п (А) LS — 2*1,5ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 40500|price = 40500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [49]
+artikul = 50|artikul = 50
+header = ВВГ нг п (А) LS — 2*2,5ож|header = ВВГ нг п (А) LS — 2*2,5ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 61900|price = 61900
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [50]
+artikul = 51|artikul = 51
+header = ВВГ нг п (А) LS — 2*4ож|header = ВВГ нг п (А) LS — 2*4ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 96500|price = 96500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [51]
+artikul = 52|artikul = 52
+header = ВВГ нг п (А) LS — 2*6ож|header = ВВГ нг п (А) LS — 2*6ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 138500|price = 138500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [52]
+artikul = 53|artikul = 53
+header = ВВГ нг п (А) LS — 2*10ож|header = ВВГ нг п (А) LS — 2*10ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 226000|price = 226000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [53]
+artikul = 54|artikul = 54
+header = ВВГ нг п (А) LS — 2*16ож|header = ВВГ нг п (А) LS — 2*16ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 365000|price = 365000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [54]
+artikul = 55|artikul = 55
+header = ВВГ нг п (А) LS — 3*1,5ож|header = ВВГ нг п (А) LS — 3*1,5ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 59500|price = 59500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [55]
+artikul = 56|artikul = 56
+header = ВВГ нг п (А) LS — 3*2,5ож|header = ВВГ нг п (А) LS — 3*2,5ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 90000|price = 90000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [56]
+artikul = 57|artikul = 57
+header = ВВГ нг п (А) LS — 3*4ож|header = ВВГ нг п (А) LS — 3*4ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 141500|price = 141500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [57]
+artikul = 58|artikul = 58
+header = ВВГ нг п (А) LS — 3*6ож|header = ВВГ нг п (А) LS — 3*6ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 211100|price = 211100
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [58]
+artikul = 59|artikul = 59
+header = ВВГ нг п (А) LS — 3*10ож|header = ВВГ нг п (А) LS — 3*10ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 350000|price = 350000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [59]
+artikul = 60|artikul = 60
+header = ВВГ нг п (А) LS — 2*1,5ож  ТУ|header = ВВГ нг п (А) LS — 2*1,5ож  ТУ
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 35000|price = 35000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [60]
+artikul = 61|artikul = 61
+header = ВВГ нг п (А) LS — 2*2,5ож  ТУ|header = ВВГ нг п (А) LS — 2*2,5ож  ТУ
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 52500|price = 52500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [61]
+artikul = 62|artikul = 62
+header = ВВГ нг п (А) LS — 2*4ож     ТУ|header = ВВГ нг п (А) LS — 2*4ож     ТУ
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 86000|price = 86000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [62]
+artikul = 63|artikul = 63
+header = ВВГ нг п (А) LS — 3*1,5ож  ТУ|header = ВВГ нг п (А) LS — 3*1,5ож  ТУ
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 50600|price = 50600
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [63]
+artikul = 64|artikul = 64
+header = ВВГ нг п (А) LS — 3*2,5ож  ТУ|header = ВВГ нг п (А) LS — 3*2,5ож  ТУ
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 77000|price = 77000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [64]
+artikul = 65|artikul = 65
+header = ВВГ нг п (А) LS — 3*4ож     ТУ|header = ВВГ нг п (А) LS — 3*4ож     ТУ
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 119500|price = 119500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [65]
+artikul = 66|artikul = 66
+header = ВВГ нг (А) LS — 4*1,5ож|header = ВВГ нг (А) LS — 4*1,5ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 85000|price = 85000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [66]
+artikul = 67|artikul = 67
+header = ВВГ нг (А) LS — 4*2,5ож|header = ВВГ нг (А) LS — 4*2,5ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 135000|price = 135000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [67]
+artikul = 68|artikul = 68
+header = ВВГ нг (А) LS — 4*4,0ож|header = ВВГ нг (А) LS — 4*4,0ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 210000|price = 210000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [68]
+artikul = 69|artikul = 69
+header = ВВГ нг (А) LS — 4*6,0ож|header = ВВГ нг (А) LS — 4*6,0ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 310000|price = 310000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [69]
+artikul = 70|artikul = 70
+header = ВВГ нг (А) LS — 4*10ож|header = ВВГ нг (А) LS — 4*10ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 490000|price = 490000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [70]
+artikul = 71|artikul = 71
+header = ВВГ нг (А) LS — 4*16ож|header = ВВГ нг (А) LS — 4*16ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 790000|price = 790000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [71]
+artikul = 72|artikul = 72
+header = ВВГ нг (А) LS — 4*25ож|header = ВВГ нг (А) LS — 4*25ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 1250000|price = 1250000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [72]
+artikul = 73|artikul = 73
+header = ВВГ нг (А) LS — 4*35ож|header = ВВГ нг (А) LS — 4*35ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 1650000|price = 1650000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [73]
+artikul = 74|artikul = 74
+header = ВВГ нг (А) LS — 4*50ож|header = ВВГ нг (А) LS — 4*50ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 2250000|price = 2250000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [74]
+artikul = 75|artikul = 75
+header = ВВГ нг (А) LS — 5*1,5ож|header = ВВГ нг (А) LS — 5*1,5ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 105000|price = 105000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [75]
+artikul = 76|artikul = 76
+header = ВВГ нг (А) LS — 5*2,5ож|header = ВВГ нг (А) LS — 5*2,5ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 160000|price = 160000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [76]
+artikul = 77|artikul = 77
+header = ВВГ нг (А) LS — 5*4,0ож|header = ВВГ нг (А) LS — 5*4,0ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 260000|price = 260000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [77]
+artikul = 78|artikul = 78
+header = ВВГ нг (А) LS — 5*6,0ож|header = ВВГ нг (А) LS — 5*6,0ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 370000|price = 370000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [78]
+artikul = 79|artikul = 79
+header = ВВГ нг (А) LS — 5*10ож|header = ВВГ нг (А) LS — 5*10ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 620000|price = 620000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [79]
+artikul = 80|artikul = 80
+header = ВВГ нг (А) LS — 5*16ож|header = ВВГ нг (А) LS — 5*16ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 1010000|price = 1010000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [80]
+artikul = 81|artikul = 81
+header = ВВГ нг (А) LS — 5*25ож|header = ВВГ нг (А) LS — 5*25ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 1550000|price = 1550000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [81]
+artikul = 82|artikul = 82
+header = ВВГ нг (А) LS — 5*35ож|header = ВВГ нг (А) LS — 5*35ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 2150000|price = 2150000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [82]
+artikul = 83|artikul = 83
+header = ВВГ нг (А) LS — 5*50ож|header = ВВГ нг (А) LS — 5*50ож
+anons = км|anons = км
+body = Кабель силовой|body = Кабель силовой
+rubricator_id = 184406|rubricator_id = 184406
+price = 2800000|price = 2800000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [83]
+artikul = 84|artikul = 84
+header = КГ 1*10|header = КГ 1*10
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 175000|price = 175000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [84]
+artikul = 85|artikul = 85
+header = КГ 1*16|header = КГ 1*16
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 262000|price = 262000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [85]
+artikul = 86|artikul = 86
+header = КГ 1*25|header = КГ 1*25
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 397000|price = 397000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [86]
+artikul = 87|artikul = 87
+header = КГ 1*35|header = КГ 1*35
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 540000|price = 540000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [87]
+artikul = 88|artikul = 88
+header = КГ 1*50|header = КГ 1*50
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 790000|price = 790000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [88]
+artikul = 89|artikul = 89
+header = КГ 1*70|header = КГ 1*70
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 1096000|price = 1096000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [89]
+artikul = 90|artikul = 90
+header = КГ 2*1,5|header = КГ 2*1,5
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 73000|price = 73000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [90]
+artikul = 91|artikul = 91
+header = КГ 2*2,5|header = КГ 2*2,5
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 109000|price = 109000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [91]
+artikul = 92|artikul = 92
+header = КГ 2*4|header = КГ 2*4
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 157000|price = 157000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [92]
+artikul = 93|artikul = 93
+header = КГ 2*6|header = КГ 2*6
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 220000|price = 220000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [93]
+artikul = 94|artikul = 94
+header = КГ 3*10+1*6|header = КГ 3*10+1*6
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 633000|price = 633000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [94]
+artikul = 95|artikul = 95
+header = КГ 3*16+1*6|header = КГ 3*16+1*6
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 905000|price = 905000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [95]
+artikul = 96|artikul = 96
+header = КГ 3*25+1*10|header = КГ 3*25+1*10
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 1413000|price = 1413000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [96]
+artikul = 97|artikul = 97
+header = КГ 3*35+1*10|header = КГ 3*35+1*10
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 1900000|price = 1900000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [97]
+artikul = 98|artikul = 98
+header = КГ 3*50+1*16|header = КГ 3*50+1*16
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 2700000|price = 2700000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [98]
+artikul = 99|artikul = 99
+header = КГ 4*1,5|header = КГ 4*1,5
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 127000|price = 127000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [99]
+artikul = 100|artikul = 100
+header = КГ 4*2,5|header = КГ 4*2,5
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 201000|price = 201000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [100]
+artikul = 101|artikul = 101
+header = КГ 4*4|header = КГ 4*4
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 286000|price = 286000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [101]
+artikul = 102|artikul = 102
+header = КГ 4*6|header = КГ 4*6
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 414000|price = 414000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [102]
+artikul = 103|artikul = 103
+header = КГ 4*10|header = КГ 4*10
+anons = км|anons = км
+body = Кабель силовой гибкий|body = Кабель силовой гибкий
+rubricator_id = 184329|rubricator_id = 184329
+price = 699000|price = 699000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [103]
+artikul = 104|artikul = 104
+header = ПВС 2*0,5|header = ПВС 2*0,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 21000|price = 21000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [104]
+artikul = 105|artikul = 105
+header = ПВС 2*0,75|header = ПВС 2*0,75
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 28000|price = 28000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [105]
+artikul = 106|artikul = 106
+header = ПВС 2*1|header = ПВС 2*1
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 33000|price = 33000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [106]
+artikul = 107|artikul = 107
+header = ПВС 2*1,5|header = ПВС 2*1,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 46000|price = 46000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [107]
+artikul = 108|artikul = 108
+header = ПВС 2*2,5|header = ПВС 2*2,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 72000|price = 72000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [108]
+artikul = 109|artikul = 109
+header = ПВС 2*4|header = ПВС 2*4
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 115000|price = 115000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [109]
+artikul = 110|artikul = 110
+header = ПВС 2*6|header = ПВС 2*6
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 170000|price = 170000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [110]
+artikul = 111|artikul = 111
+header = ПВС 3*0,75|header = ПВС 3*0,75
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 37000|price = 37000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [111]
+artikul = 112|artikul = 112
+header = ПВС 3*1|header = ПВС 3*1
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 46000|price = 46000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [112]
+artikul = 113|artikul = 113
+header = ПВС 3*1,5|header = ПВС 3*1,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 63000|price = 63000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [113]
+artikul = 114|artikul = 114
+header = ПВС 3*2,5|header = ПВС 3*2,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 105000|price = 105000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [114]
+artikul = 115|artikul = 115
+header = ПВС 3*4|header = ПВС 3*4
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 165000|price = 165000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [115]
+artikul = 116|artikul = 116
+header = ПВС 3*6|header = ПВС 3*6
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 240000|price = 240000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [116]
+artikul = 117|artikul = 117
+header = ПВС 4*0,75|header = ПВС 4*0,75
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 46000|price = 46000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [117]
+artikul = 118|artikul = 118
+header = ПВС 4*1|header = ПВС 4*1
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 61000|price = 61000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [118]
+artikul = 119|artikul = 119
+header = ПВС 4*1,5|header = ПВС 4*1,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 85000|price = 85000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [119]
+artikul = 120|artikul = 120
+header = ПВС 4*2,5|header = ПВС 4*2,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 137000|price = 137000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [120]
+artikul = 121|artikul = 121
+header = ПВС 4*4|header = ПВС 4*4
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 215000|price = 215000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [121]
+artikul = 122|artikul = 122
+header = ПВС 4*6|header = ПВС 4*6
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 320000|price = 320000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [122]
+artikul = 123|artikul = 123
+header = ПВС 4*10|header = ПВС 4*10
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 530000|price = 530000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [123]
+artikul = 124|artikul = 124
+header = ПВС 4*16|header = ПВС 4*16
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 810000|price = 810000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [124]
+artikul = 125|artikul = 125
+header = ПВС 5*0,75|header = ПВС 5*0,75
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 58000|price = 58000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [125]
+artikul = 126|artikul = 126
+header = ПВС 5*1|header = ПВС 5*1
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 74000|price = 74000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [126]
+artikul = 127|artikul = 127
+header = ПВС 5*1,5|header = ПВС 5*1,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 110000|price = 110000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [127]
+artikul = 128|artikul = 128
+header = ПВС 5*2,5|header = ПВС 5*2,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 175000|price = 175000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [128]
+artikul = 129|artikul = 129
+header = ПВС 5*4|header = ПВС 5*4
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 270000|price = 270000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [129]
+artikul = 130|artikul = 130
+header = ПВС 5*6|header = ПВС 5*6
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 405000|price = 405000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [130]
+artikul = 131|artikul = 131
+header = ПВС 5*10|header = ПВС 5*10
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 660000|price = 660000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [131]
+artikul = 132|artikul = 132
+header = ПВС 5*16|header = ПВС 5*16
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184407|rubricator_id = 184407
+price = 995000|price = 995000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [132]
+artikul = 133|artikul = 133
+header = ШВВП 2*0,5|header = ШВВП 2*0,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184408|rubricator_id = 184408
+price = 17500|price = 17500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [133]
+artikul = 134|artikul = 134
+header = ШВВП 2*0,75|header = ШВВП 2*0,75
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184408|rubricator_id = 184408
+price = 24500|price = 24500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [134]
+artikul = 135|artikul = 135
+header = ШВВП 2*1,0|header = ШВВП 2*1,0
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184408|rubricator_id = 184408
+price = 29000|price = 29000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [135]
+artikul = 136|artikul = 136
+header = ШВВП 2*1,5|header = ШВВП 2*1,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184408|rubricator_id = 184408
+price = 42000|price = 42000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [136]
+artikul = 137|artikul = 137
+header = ШВВП 2*2,5|header = ШВВП 2*2,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184408|rubricator_id = 184408
+price = 69000|price = 69000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [137]
+artikul = 138|artikul = 138
+header = ШВВП 2*4,0|header = ШВВП 2*4,0
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184408|rubricator_id = 184408
+price = 110000|price = 110000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [138]
+artikul = 139|artikul = 139
+header = ШВВП 3*0,5|header = ШВВП 3*0,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184408|rubricator_id = 184408
+price = 25000|price = 25000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [139]
+artikul = 140|artikul = 140
+header = ШВВП 3*1,0|header = ШВВП 3*1,0
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184408|rubricator_id = 184408
+price = 43000|price = 43000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [140]
+artikul = 141|artikul = 141
+header = ШВВП 3*1,5|header = ШВВП 3*1,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184408|rubricator_id = 184408
+price = 64000|price = 64000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [141]
+artikul = 142|artikul = 142
+header = ШВВП 3*2,5|header = ШВВП 3*2,5
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184408|rubricator_id = 184408
+price = 105000|price = 105000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [142]
+artikul = 143|artikul = 143
+header = ШВВП 3*4,0|header = ШВВП 3*4,0
+anons = км|anons = км
+body = Провода и шнуры соединительные|body = Провода и шнуры соединительные
+rubricator_id = 184408|rubricator_id = 184408
+price = 170000|price = 170000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [143]
+artikul = 144|artikul = 144
+header = АПВ 2,5|header = АПВ 2,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184410|rubricator_id = 184410
+price = 5380|price = 5380
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [144]
+artikul = 145|artikul = 145
+header = АПВ 4|header = АПВ 4
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184410|rubricator_id = 184410
+price = 7290|price = 7290
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [145]
+artikul = 146|artikul = 146
+header = АПВ 6|header = АПВ 6
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184410|rubricator_id = 184410
+price = 10420|price = 10420
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [146]
+artikul = 147|artikul = 147
+header = АПВ 10|header = АПВ 10
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184410|rubricator_id = 184410
+price = 15080|price = 15080
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [147]
+artikul = 148|artikul = 148
+header = АПВ 16|header = АПВ 16
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184410|rubricator_id = 184410
+price = 26930|price = 26930
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [148]
+artikul = 149|artikul = 149
+header = АПВ 25|header = АПВ 25
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184410|rubricator_id = 184410
+price = 41090|price = 41090
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [149]
+artikul = 150|artikul = 150
+header = АПВ 35|header = АПВ 35
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184410|rubricator_id = 184410
+price = 54560|price = 54560
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [150]
+artikul = 151|artikul = 151
+header = АПВ 50|header = АПВ 50
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184410|rubricator_id = 184410
+price = 75500|price = 75500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [151]
+artikul = 152|artikul = 152
+header = АППВ 2*2|header = АППВ 2*2
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184411|rubricator_id = 184411
+price = 8750|price = 8750
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [152]
+artikul = 153|artikul = 153
+header = АППВ 2*2,5|header = АППВ 2*2,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184411|rubricator_id = 184411
+price = 9800|price = 9800
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [153]
+artikul = 154|artikul = 154
+header = АППВ 2*3|header = АППВ 2*3
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184411|rubricator_id = 184411
+price = 11200|price = 11200
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [154]
+artikul = 155|artikul = 155
+header = АППВ 2*4|header = АППВ 2*4
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184411|rubricator_id = 184411
+price = 14200|price = 14200
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [155]
+artikul = 156|artikul = 156
+header = АППВ 3*2|header = АППВ 3*2
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184411|rubricator_id = 184411
+price = 13200|price = 13200
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [156]
+artikul = 157|artikul = 157
+header = АППВ 3*2,5|header = АППВ 3*2,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184411|rubricator_id = 184411
+price = 14700|price = 14700
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [157]
+artikul = 158|artikul = 158
+header = АППВ 3*4|header = АППВ 3*4
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184411|rubricator_id = 184411
+price = 20800|price = 20800
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [158]
+artikul = 159|artikul = 159
+header = ППВ 2*1,5|header = ППВ 2*1,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184412|rubricator_id = 184412
+price = 39800|price = 39800
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [159]
+artikul = 160|artikul = 160
+header = ППВ 2*2|header = ППВ 2*2
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184412|rubricator_id = 184412
+price = 55550|price = 55550
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [160]
+artikul = 161|artikul = 161
+header = ППВ 2*2,5|header = ППВ 2*2,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184412|rubricator_id = 184412
+price = 60760|price = 60760
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [161]
+artikul = 162|artikul = 162
+header = ППВ 2*3|header = ППВ 2*3
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184412|rubricator_id = 184412
+price = 81700|price = 81700
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [162]
+artikul = 163|artikul = 163
+header = ППВ 2*4|header = ППВ 2*4
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184412|rubricator_id = 184412
+price = 100800|price = 100800
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [163]
+artikul = 164|artikul = 164
+header = ППВ 3*1|header = ППВ 3*1
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184412|rubricator_id = 184412
+price = 32750|price = 32750
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [164]
+artikul = 165|artikul = 165
+header = ППВ 3*1,5|header = ППВ 3*1,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184412|rubricator_id = 184412
+price = 58250|price = 58250
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [165]
+artikul = 166|artikul = 166
+header = ППВ 3*2|header = ППВ 3*2
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184412|rubricator_id = 184412
+price = 81750|price = 81750
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [166]
+artikul = 167|artikul = 167
+header = ППВ 3*2,5|header = ППВ 3*2,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184412|rubricator_id = 184412
+price = 89700|price = 89700
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [167]
+artikul = 168|artikul = 168
+header = ППВ 3*4|header = ППВ 3*4
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184412|rubricator_id = 184412
+price = 148200|price = 148200
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [168]
+artikul = 169|artikul = 169
+header = ПВ 1  0,5|header = ПВ 1  0,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 7900|price = 7900
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [169]
+artikul = 170|artikul = 170
+header = ПВ 1  0,75|header = ПВ 1  0,75
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 11000|price = 11000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [170]
+artikul = 171|artikul = 171
+header = ПВ 1  1,0|header = ПВ 1  1,0
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 13510|price = 13510
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [171]
+artikul = 172|artikul = 172
+header = ПВ 1  1,5|header = ПВ 1  1,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 21000|price = 21000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [172]
+artikul = 173|artikul = 173
+header = ПВ 1  2,5|header = ПВ 1  2,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 33000|price = 33000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [173]
+artikul = 174|artikul = 174
+header = ПВ 1   4|header = ПВ 1   4
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 52670|price = 52670
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [174]
+artikul = 175|artikul = 175
+header = ПВ 1   6|header = ПВ 1   6
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 77900|price = 77900
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [175]
+artikul = 176|artikul = 176
+header = ПВ 1  10|header = ПВ 1  10
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 131530|price = 131530
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [176]
+artikul = 177|artikul = 177
+header = ПВ 1  16|header = ПВ 1  16
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 212000|price = 212000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [177]
+artikul = 178|artikul = 178
+header = ПВ 1  25|header = ПВ 1  25
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 318700|price = 318700
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [178]
+artikul = 179|artikul = 179
+header = ПВ 1  35|header = ПВ 1  35
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 441500|price = 441500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [179]
+artikul = 180|artikul = 180
+header = ПВ 1  50|header = ПВ 1  50
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 628000|price = 628000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [180]
+artikul = 181|artikul = 181
+header = ПВ 1  70|header = ПВ 1  70
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 903000|price = 903000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [181]
+artikul = 182|artikul = 182
+header = ПВ 1  95|header = ПВ 1  95
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 1236000|price = 1236000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [182]
+artikul = 183|artikul = 183
+header = ПВ 1  120|header = ПВ 1  120
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 1543000|price = 1543000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [183]
+artikul = 184|artikul = 184
+header = ПВ 1  150|header = ПВ 1  150
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 1936000|price = 1936000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [184]
+artikul = 185|artikul = 185
+header = ПВ 1  240|header = ПВ 1  240
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184413|rubricator_id = 184413
+price = 3180000|price = 3180000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [185]
+artikul = 186|artikul = 186
+header = ПВ 3  0,5|header = ПВ 3  0,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 8100|price = 8100
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [186]
+artikul = 187|artikul = 187
+header = ПВ 3  0,75|header = ПВ 3  0,75
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 11190|price = 11190
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [187]
+artikul = 188|artikul = 188
+header = ПВ 3  1,0|header = ПВ 3  1,0
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 12840|price = 12840
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [188]
+artikul = 189|artikul = 189
+header = ПВ 3  1,5|header = ПВ 3  1,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 21350|price = 21350
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [189]
+artikul = 190|artikul = 190
+header = ПВ 3  2,5|header = ПВ 3  2,5
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 33360|price = 33360
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [190]
+artikul = 191|artikul = 191
+header = ПВ 3  4|header = ПВ 3  4
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 53370|price = 53370
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [191]
+artikul = 192|artikul = 192
+header = ПВ 3  6|header = ПВ 3  6
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 82140|price = 82140
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [192]
+artikul = 193|artikul = 193
+header = ПВ 3  10|header = ПВ 3  10
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 130670|price = 130670
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [193]
+artikul = 194|artikul = 194
+header = ПВ 3  16|header = ПВ 3  16
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 215230|price = 215230
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [194]
+artikul = 195|artikul = 195
+header = ПВ 3  25|header = ПВ 3  25
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 319000|price = 319000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [195]
+artikul = 196|artikul = 196
+header = ПВ 3  35|header = ПВ 3  35
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 441000|price = 441000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [196]
+artikul = 197|artikul = 197
+header = ПВ 3  50|header = ПВ 3  50
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 624000|price = 624000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [197]
+artikul = 198|artikul = 198
+header = ПВ 3  70|header = ПВ 3  70
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 903000|price = 903000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [198]
+artikul = 199|artikul = 199
+header = ПВ 3  95|header = ПВ 3  95
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 1229000|price = 1229000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [199]
+artikul = 200|artikul = 200
+header = ПВ 3  120|header = ПВ 3  120
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 1529000|price = 1529000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [200]
+artikul = 201|artikul = 201
+header = ПВ 3  150|header = ПВ 3  150
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 1917000|price = 1917000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [201]
+artikul = 202|artikul = 202
+header = ПВ 3  185|header = ПВ 3  185
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 2190000|price = 2190000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [202]
+artikul = 203|artikul = 203
+header = ПВ 3  240|header = ПВ 3  240
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 3151000|price = 3151000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [203]
+artikul = 204|artikul = 204
+header = ПВ 3  300|header = ПВ 3  300
+anons = км|anons = км
+body = Провода для электрических установок|body = Провода для электрических установок
+rubricator_id = 184414|rubricator_id = 184414
+price = 3747000|price = 3747000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [204]
+artikul = 205|artikul = 205
+header = ВПП 2,5|header = ВПП 2,5
+anons = км|anons = км
+body = Провода выводные|body = Провода выводные
+rubricator_id = 184379|rubricator_id = 184379
+price = 48500|price = 48500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [205]
+artikul = 206|artikul = 206
+header = ВПП  4|header = ВПП  4
+anons = км|anons = км
+body = Провода выводные|body = Провода выводные
+rubricator_id = 184379|rubricator_id = 184379
+price = 75500|price = 75500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [206]
+artikul = 207|artikul = 207
+header = ВПП  6|header = ВПП  6
+anons = км|anons = км
+body = Провода выводные|body = Провода выводные
+rubricator_id = 184379|rubricator_id = 184379
+price = 106000|price = 106000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [207]
+artikul = 208|artikul = 208
+header = ВПП  10|header = ВПП  10
+anons = км|anons = км
+body = Провода выводные|body = Провода выводные
+rubricator_id = 184379|rubricator_id = 184379
+price = 171500|price = 171500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [208]
+artikul = 209|artikul = 209
+header = ВПП  16|header = ВПП  16
+anons = км|anons = км
+body = Провода выводные|body = Провода выводные
+rubricator_id = 184379|rubricator_id = 184379
+price = 275500|price = 275500
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [209]
+artikul = 210|artikul = 210
+header = ВПП  25|header = ВПП  25
+anons = км|anons = км
+body = Провода выводные|body = Провода выводные
+rubricator_id = 184379|rubricator_id = 184379
+price = 428000|price = 428000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [210]
+artikul = 211|artikul = 211
+header = ВПП  35|header = ВПП  35
+anons = км|anons = км
+body = Провода выводные|body = Провода выводные
+rubricator_id = 184379|rubricator_id = 184379
+price = 580000|price = 580000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [211]
+artikul = 212|artikul = 212
+header = ВПП  50|header = ВПП  50
+anons = км|anons = км
+body = Провода выводные|body = Провода выводные
+rubricator_id = 184379|rubricator_id = 184379
+price = 762000|price = 762000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [212]
+artikul = 213|artikul = 213
+header = ВПП  70|header = ВПП  70
+anons = км|anons = км
+body = Провода выводные|body = Провода выводные
+rubricator_id = 184379|rubricator_id = 184379
+price = 1136000|price = 1136000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [213]
+artikul = 214|artikul = 214
+header = СИП-2 3*16+1*25|header = СИП-2 3*16+1*25
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 113000|price = 113000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [214]
+artikul = 215|artikul = 215
+header = СИП-2 3*25+1*35|header = СИП-2 3*25+1*35
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 165000|price = 165000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [215]
+artikul = 216|artikul = 216
+header = СИП-2 3*25+1*54,6|header = СИП-2 3*25+1*54,6
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 187000|price = 187000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [216]
+artikul = 217|artikul = 217
+header = СИП-2 3*35+1*50|header = СИП-2 3*35+1*50
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 220000|price = 220000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [217]
+artikul = 218|artikul = 218
+header = СИП-2 3*35+1*54,6|header = СИП-2 3*35+1*54,6
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 226000|price = 226000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [218]
+artikul = 219|artikul = 219
+header = СИП-2 3*50+1*54,6|header = СИП-2 3*50+1*54,6
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 274000|price = 274000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [219]
+artikul = 220|artikul = 220
+header = СИП-2 3*70+1*54,6|header = СИП-2 3*70+1*54,6
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 375000|price = 375000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [220]
+artikul = 221|artikul = 221
+header = СИП-2 3*70+1*70|header = СИП-2 3*70+1*70
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 379000|price = 379000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [221]
+artikul = 222|artikul = 222
+header = СИП-2 3*95+1*70|header = СИП-2 3*95+1*70
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 471000|price = 471000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [222]
+artikul = 223|artikul = 223
+header = СИП-2 3*95+1*95|header = СИП-2 3*95+1*95
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 500000|price = 500000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [223]
+artikul = 224|artikul = 224
+header = СИП-2 3*120+1*95|header = СИП-2 3*120+1*95
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 607000|price = 607000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [224]
+artikul = 225|artikul = 225
+header = СИП-2 3*120+1*120|header = СИП-2 3*120+1*120
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 649000|price = 649000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [225]
+artikul = 226|artikul = 226
+header = СИП-2 3*25+1*54,6+1*16|header = СИП-2 3*25+1*54,6+1*16
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 206000|price = 206000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [226]
+artikul = 227|artikul = 227
+header = СИП-2 3*35+1*54,6+1*16|header = СИП-2 3*35+1*54,6+1*16
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 273000|price = 273000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [227]
+artikul = 228|artikul = 228
+header = СИП-2 3*95+1*95+1*16|header = СИП-2 3*95+1*95+1*16
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184417|rubricator_id = 184417
+price = 557000|price = 557000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [228]
+artikul = 229|artikul = 229
+header = СИП-4 2*16|header = СИП-4 2*16
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 47000|price = 47000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [229]
+artikul = 230|artikul = 230
+header = СИП-4 2*25|header = СИП-4 2*25
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 73000|price = 73000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [230]
+artikul = 231|artikul = 231
+header = СИП-4 2*35|header = СИП-4 2*35
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 96000|price = 96000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [231]
+artikul = 232|artikul = 232
+header = СИП-4 4*16|header = СИП-4 4*16
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 95000|price = 95000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [232]
+artikul = 233|artikul = 233
+header = СИП-4 4*25|header = СИП-4 4*25
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 147000|price = 147000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [233]
+artikul = 234|artikul = 234
+header = СИП-4 4*35|header = СИП-4 4*35
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 188000|price = 188000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [234]
+artikul = 235|artikul = 235
+header = СИП-4 4*50|header = СИП-4 4*50
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 254000|price = 254000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [235]
+artikul = 236|artikul = 236
+header = СИП-4 4*70|header = СИП-4 4*70
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 363000|price = 363000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [236]
+artikul = 237|artikul = 237
+header = СИП-4 4*95|header = СИП-4 4*95
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 479000|price = 479000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [237]
+artikul = 238|artikul = 238
+header = СИП-4 4*120|header = СИП-4 4*120
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 620000|price = 620000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [238]
+artikul = 239|artikul = 239
+header = СИП-4 4*150|header = СИП-4 4*150
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 781000|price = 781000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [239]
+artikul = 240|artikul = 240
+header = СИП-4 4*185|header = СИП-4 4*185
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 898000|price = 898000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [240]
+artikul = 241|artikul = 241
+header = СИП-4 4*240|header = СИП-4 4*240
+anons = км|anons = км
+body = Провода самонесущие изолированные|body = Провода самонесущие изолированные
+rubricator_id = 184418|rubricator_id = 184418
+price = 1151000|price = 1151000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [241]
+artikul = 242|artikul = 242
+header = СИП-3 1*35|header = СИП-3 1*35
+anons = км|anons = км
+body = Провода с защитной изоляцией для воздушних линий электропередач|body = Провода с защитной изоляцией для воздушних линий электропередач
+rubricator_id = 184381|rubricator_id = 184381
+price = 60000|price = 60000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [242]
+artikul = 243|artikul = 243
+header = СИП-3 1*50|header = СИП-3 1*50
+anons = км|anons = км
+body = Провода с защитной изоляцией для воздушних линий электропередач|body = Провода с защитной изоляцией для воздушних линий электропередач
+rubricator_id = 184381|rubricator_id = 184381
+price = 83000|price = 83000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [243]
+artikul = 244|artikul = 244
+header = СИП-3 1*70|header = СИП-3 1*70
+anons = км|anons = км
+body = Провода с защитной изоляцией для воздушних линий электропередач|body = Провода с защитной изоляцией для воздушних линий электропередач
+rubricator_id = 184381|rubricator_id = 184381
+price = 113000|price = 113000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [244]
+artikul = 245|artikul = 245
+header = СИП-3 1*95|header = СИП-3 1*95
+anons = км|anons = км
+body = Провода с защитной изоляцией для воздушних линий электропередач|body = Провода с защитной изоляцией для воздушних линий электропередач
+rubricator_id = 184381|rubricator_id = 184381
+price = 149000|price = 149000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [245]
+artikul = 246|artikul = 246
+header = СИП-3 1*120|header = СИП-3 1*120
+anons = км|anons = км
+body = Провода с защитной изоляцией для воздушних линий электропередач|body = Провода с защитной изоляцией для воздушних линий электропередач
+rubricator_id = 184381|rubricator_id = 184381
+price = 188000|price = 188000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [246]
+artikul = 247|artikul = 247
+header = СИП-3 1*150|header = СИП-3 1*150
+anons = км|anons = км
+body = Провода с защитной изоляцией для воздушних линий электропередач|body = Провода с защитной изоляцией для воздушних линий электропередач
+rubricator_id = 184381|rubricator_id = 184381
+price = 238000|price = 238000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [247]
+artikul = 248|artikul = 248
+header = РПШ 7*1,5|header = РПШ 7*1,5
+anons = км|anons = км
+body = Провода для радио установок|body = Провода для радио установок
+rubricator_id = 184382|rubricator_id = 184382
+price = 270000|price = 270000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [248]
+artikul = 249|artikul = 249
+header = РПШ 7*2,5|header = РПШ 7*2,5
+anons = км|anons = км
+body = Провода для радио установок|body = Провода для радио установок
+rubricator_id = 184382|rubricator_id = 184382
+price = 413000|price = 413000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [249]
+artikul = 250|artikul = 250
+header = П-274|header = П-274
+anons = км|anons = км
+body = Провод для полевой связи|body = Провод для полевой связи
+rubricator_id = 184384|rubricator_id = 184384
+price = 17000|price = 17000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [250]
+artikul = 251|artikul = 251
+header = АС 95/16|header = АС 95/16
+anons = т|anons = т
+body = Провод неизолированный для воздушных линий передач|body = Провод неизолированный для воздушных линий передач
+rubricator_id = 184385|rubricator_id = 184385
+price = 392000|price = 392000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [251]
+artikul = 252|artikul = 252
+header = АС 70/11|header = АС 70/11
+anons = т|anons = т
+body = Провод неизолированный для воздушных линий передач|body = Провод неизолированный для воздушных линий передач
+rubricator_id = 184385|rubricator_id = 184385
+price = 392000|price = 392000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [252]
+artikul = 253|artikul = 253
+header = АС 50/8|header = АС 50/8
+anons = т|anons = т
+body = Провод неизолированный для воздушных линий передач|body = Провод неизолированный для воздушных линий передач
+rubricator_id = 184385|rubricator_id = 184385
+price = 392000|price = 392000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [253]
+artikul = 254|artikul = 254
+header = АС 35/6,2|header = АС 35/6,2
+anons = т|anons = т
+body = Провод неизолированный для воздушных линий передач|body = Провод неизолированный для воздушных линий передач
+rubricator_id = 184385|rubricator_id = 184385
+price = 392000|price = 392000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [254]
+artikul = 255|artikul = 255
+header = ААБл 10кВ 3*50ож|header = ААБл 10кВ 3*50ож
+anons = км|anons = км
+body = Кабель силовой с пропитанной бумажной изоляцией|body = Кабель силовой с пропитанной бумажной изоляцией
+rubricator_id = 195625|rubricator_id = 195625
+price = 694000|price = 694000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [255]
+artikul = 256|artikul = 256
+header = ААБл 10кВ 3*70ож|header = ААБл 10кВ 3*70ож
+anons = км|anons = км
+body = Кабель силовой с пропитанной бумажной изоляцией|body = Кабель силовой с пропитанной бумажной изоляцией
+rubricator_id = 195625|rubricator_id = 195625
+price = 813000|price = 813000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [256]
+artikul = 257|artikul = 257
+header = ААБл 10кВ 3*95ож|header = ААБл 10кВ 3*95ож
+anons = км|anons = км
+body = Кабель силовой с пропитанной бумажной изоляцией|body = Кабель силовой с пропитанной бумажной изоляцией
+rubricator_id = 195625|rubricator_id = 195625
+price = 949000|price = 949000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [257]
+artikul = 258|artikul = 258
+header = ААБл 10кВ 3*120ож|header = ААБл 10кВ 3*120ож
+anons = км|anons = км
+body = Кабель силовой с пропитанной бумажной изоляцией|body = Кабель силовой с пропитанной бумажной изоляцией
+rubricator_id = 195625|rubricator_id = 195625
+price = 1086000|price = 1086000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [258]
+artikul = 259|artikul = 259
+header = ААБл 10кВ 3*150ож|header = ААБл 10кВ 3*150ож
+anons = км|anons = км
+body = Кабель силовой с пропитанной бумажной изоляцией|body = Кабель силовой с пропитанной бумажной изоляцией
+rubricator_id = 195625|rubricator_id = 195625
+price = 1228000|price = 1228000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [259]
+artikul = 260|artikul = 260
+header = ААБл 10кВ 3*185ож|header = ААБл 10кВ 3*185ож
+anons = км|anons = км
+body = Кабель силовой с пропитанной бумажной изоляцией|body = Кабель силовой с пропитанной бумажной изоляцией
+rubricator_id = 195625|rubricator_id = 195625
+price = 1418000|price = 1418000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [260]
+artikul = 261|artikul = 261
+header = ААБл 10кВ 3*240ож|header = ААБл 10кВ 3*240ож
+anons = км|anons = км
+body = Кабель силовой с пропитанной бумажной изоляцией|body = Кабель силовой с пропитанной бумажной изоляцией
+rubricator_id = 195625|rubricator_id = 195625
+price = 1726000|price = 1726000
+SELECT good_id FROM struct_4755_good WHERE artikul=?, [261]

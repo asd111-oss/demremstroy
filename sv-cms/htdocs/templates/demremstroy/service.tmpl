@@ -1,0 +1,26 @@
+                <nav class="crumbs">
+                    <ul class="s list">
+                        <li class="item"><a class="link" href="/">Главная</a></li>
+                        [% IF !PATH_INFO %]
+                          <li class="item">Услуги</li>
+                        [% ELSE %]
+                          <li class="item"><a class="link" href="/service">Услуги</a></li>
+                          [% FOREACH PATH_INFO %]
+                            <li class="item">[% IF loop.last ; header ; ELSE %]<a class="link" href="[% href %]">[% header %]</a>[% END %]</li>
+                          [% END %]
+                        [% END %]
+                    </ul>
+                </nav>
+
+                <div class="h1"><span class="text">[% content.header %]</span></div>
+                [% content.body %]
+                [% FOREACH LIST %]
+                  <div class="h4 nu"><a href="[% url %]">[% header %]</a></div>
+                  [% IF child.size %]
+                  <ul class="s list_1">
+                    [% FOREACH child %]
+                      <li class="item"><a class="link" href="[% url %]">[% header %]</a></li>
+                    [% END %]
+                  </ul>
+                  [% END %]
+                [% END %]

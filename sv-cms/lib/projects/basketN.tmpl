@@ -1,0 +1,301 @@
+<ul class="s crumbs">
+    <li><a href="/">Главная</a></li>
+    <li>Корзина</li>
+</ul>
+			<div class="h3">Корзина</div>
+		
+		[%# USE Dumper %][%# Dumper.dump_html(BASKET) %]
+		[% TOTAL_SUM = 0 %]
+		
+		<form class="js-nice" action='' method='get'>
+		<input type='hidden' name='action' value='basket_update' />
+			<table class="s x-table">
+                <tbody>
+			[% FOREACH i IN BASKET %]
+				<tr>
+				
+				<div>[%# Dumper.dump_html(i.STRUCT) %]</div>
+				
+				
+					<td class="w-150">
+                        <div class="fig"><img class="img" src='[% i.STRUCT.photo_and_path_mini1 %]' alt="" /></div>
+                    </td>
+					<td>
+
+						<p><a href="[% '/good/' _ i.good_id %]">[% i.STRUCT.header %]</a></p>
+					
+					<table class="s">
+					<tr><td>
+						<b>Количество:</b>
+							[% BLOCK xx %]
+							<select>
+								<option>[% i.cnt %]</option>
+							</select>
+							[%END %]							
+							<input class="w-50" type='text' name='rec_id_[%i.good_id%]_size_[% i.size %]' value='[% i.cnt %]' />
+							
+						</td>
+					<td class="w-150 size">
+						<b>Размер:</b>
+						<select disabled>
+						[% sum = '' %]
+							[% FOREACH f IN i.STRUCT.attr %]
+							<option data-price2='[% IF f.price2 %][% f.price2%][% END %]' data-price='[% f.price %]' value='[% f.id %]'[%IF f.id==i.size%] selected[% END%]>[% f.dimensions_text %]</option>
+							[% END %]
+
+						</select></td>
+					<td class="w-90 count">[% IF i.STRUCT.price2 %][% i.STRUCT.price2 %][% ELSE %][% i.STRUCT.price %][% END %] р./шт.</td>
+					<td class="w-75 price">[% i.STRUCT.sum %] р.
+                        <a class="delete" onClick="javascript: basket__del([%i.good_id%],[% i.size %],[% i.obivka || 0 %]); return false;" href="#"></a>
+                    </td>
+
+                    </tr></table>                      
+                      [% IF i.STRUCT.obivka_list.size %]<p class="cx mb-20">
+							<span class="ib vm w-80 ">Обивка:</span>
+							<select class="field w-160 with_previews">
+                              [% BLOCK OLD %]
+								<option  value="0"[% ' selected="selected"' IF !i.obivka %]>- выберите- </option>
+                              [% END %]
+                              [% FOREACH i.STRUCT.obivka_list ; NEXT IF i.obivka != id #&& BASKETSTEP> 1 %]
+								<option value="[% id %]"[% ' selected="selected"' IF i.obivka == id %] data-big-img="[% photo_and_path_mini2 %]" data-small-img="[% photo_and_path_mini1 %]">[% header %]</option>
+                              [% END %]
+							</select>
+						</p>
+                      [% END %]
+				</tr>
+				[% TOTAL_SUM = TOTAL_SUM+i.STRUCT.sum %]
+			[% END %]
+                </tbody>
+			</table>
+
+
+			<p class="mb-12 cx"><span class="fr">
+				[% IF BASKETSTEP!=3 and form_status != 'error' %]<button class="button1" type="submit"><span>Пересчитать</span></button>
+				</span><span class="o lh-18">Общая сумма заказа: [% TOTAL_SUM %] р.</span></p>[% END %]
+				[% IF BASKET.size() %]
+				[% BLOCK nenado121 %][% IF !BASKETSTEP %]<p class="mb-75"><b>Всего с доставкой: <span class="f-16">[% TOTAL_SUM %] р.</span></b> <a href="/basket/1" class="button1 ml-12"><span>далее</span></a></p>[% END %][% END %]
+				[% IF !BASKETSTEP %]<p class="mb-75 fr"><a href="/basket/1" class="button1 ml-12"><span>далее</span></a></p>[% END %]
+				[% IF BASKETSTEP==2 %]<p class="mb-75"><b>Всего с доставкой: <span class="f-16">[% TOTAL_SUM_WITH_DELIVERY %] р.</span></b></p>[% END %]								
+				[% END %]
+				
+				
+		<p class="f-10">Заполняя форму, Вы даете согласие на <a href="/securitypolicy">обработку своих персональных данных</a></p></form>
+				
+			[%#<p class="mb-12">Доставка: <span class="f-16">0 р.</span></p>%]
+			
+
+			
+			[% BLOCK xx1 %]<p class="mb-75"><b>Всего с доставкой: <span class="f-16">30984 р.</span></b> <a href="#" class="button1 ml-12"><span>далее</span></a></p>[% END %]
+			
+			<input type='hidden' id='total_price' value='[% TOTAL_SUM %]' />
+			
+			[% IF BASKETSTEP==1 %]
+            <hr class="hr" />
+			<form id='step1form' action='/basket/2' method='get'>
+			<div class="h3">Варианты оплаты</div>
+			<div class="rel mb-30">
+				<div class="mb-10 rel">
+					<input type="radio" class="mr-12 show-bubl" value="1" id="cash" name="pay" />
+					<label for="cash">Наличными курьеру</label>
+					<div class="bubl hide">[% const.courier_text %]
+					<div class="xv"></div>
+					</div>
+				</div>
+				<div class="mb-10 rel">
+					<input type="radio" class="mr-12 show-bubl" value="2" id="card" name="pay" />
+					<label for="card">Безналичный расчет</label>
+					<div class="bubl hide">[% const.beznal_text %]
+					<div class="xv"></div>
+					</div>
+				</div>
+				
+			</div>
+
+                <hr class="hr" />
+			<div class="h3">Условия доставки</div>
+			<div class="rel mb-40">
+				<div class="mb-10 rel">
+					<input type="radio" onClick="$('#address2').addClass('hide')" value="1" name="usl_dost" id="samovivoz" class="mr-12 show-bubl" />
+					<label for="samovivoz">Самовывоз</label>
+					<div class="bubl hide">[% const.samovyvoz_text %]
+					<div class="xv"></div>
+					</div>
+				</div>
+				<div class="mb-10 rel">
+					<input type="radio" onClick="$('#address2').removeClass('hide')" value="2" name="usl_dost" id="address" class="mr-12 show-bubl" />
+					<label for="address">По адресу</label>
+					<div class="bubl hide">[% const.poadresu_text %]
+					<div class="xv"></div>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+
+			
+			<div id="address2" class="hide"><p>
+				<select class="field w-250 mr-9" name="city" id="city">
+					<option data-price2="" data-price='' value='' selected>Выберите город</option>
+					[% FOREACH city IN CITIES %]
+					<option data-price2="[% city.shipping_max %]" data-price='[% city.shipping_min %]' value='[% city.id %]'[% IF form_vls.city == city.id %] selected[% END %]>[% city.header %]</option>
+					[% END %]
+				</select>
+				<input type="hidden" id="min_to_max_sum" value=[% const.pricedostavkamin %] />
+				<label for="city">Город</label>
+			</p>
+			<p>
+				<input class="w-250 field mr-9" id="street" name="ship_street" type="text" value="[% form_vls.street %]" />
+				<label for="street">Улица</label>
+			</p>
+			<p>
+				<input class="w-65 field mr-9" type="text" name="ship_house" id="house" value="[% form_vls.house %]" />
+				<label class="mr-22" for="house">Дом</label>
+				<input class="w-65 field mr-9" type="text" name="ship_korp" id="korp" value="[% form_vls.corpus %]"/>
+				<label class="mr-22" for="korp">Корпус</label>
+				<input class="w-65 field mr-9" type="text" name="ship_flat" id="appartament" value="[% form_vls.flat %]" />
+				<label class="mr-22" for="appartament">Квартира/Офис</label>
+			</p></div>
+			
+					<p class="mb-65">
+						<p class="mb-65">
+			<strong>Стоимость доставки: <span id="shipping_cost">0</span> р.</strong><br/>
+			<span class="f-18" style="color: #094371">Всего с доставкой:</span> <span style="color: #f12d33;" class="f-18" id='orderprice'>[% TOTAL_SUM %] р.</span>  <a href="/basket" class="button1 disabled ml-12"><span>назад</span></a> <a onclick="$('#step1form').submit(); return false; " href="#" class="button1 ml-7"><span>далее</span></a></p>
+			<p class="f-10">Заполняя форму, Вы даете согласие на <a href="/securitypolicy">обработку своих персональных данных</a></p></form>
+			
+			[% END %]
+			
+			[% IF BASKETSTEP==2 %]
+			
+				[% IF form_status != 'error' %]
+			
+			<div class="h3">Контактные данные</div>
+			<p class="cx"><span class="fl">Укажите Ваши контактные данные:</span>[% IF !login_info %]<span class="fr"><a href="/signin">Регистрировались ранее?</a></span></p>[% END %]
+			<form class="ph-8 required" method="get" action="/basket/3">
+			<input type='hidden' name='action' value='form_send'>
+			<input type='hidden' name='type' value='order'>
+			<script src='/js/ajax.js'></script>
+				<p>
+					<label for="name" class="w-230 ar mr-6">ФИО: <span class="star">*</span></label>
+					<input class="w-220 required[% IF errors.name %] error-field[% END %]" data-err-msg-empty="вы не представились" id="name" name="name" type="text" value="[% form_vls.name %]" [% IF login_info %]readonly[% END %] />
+					[% IF errors.name %]<span class="error-message">[% errors.name %]</span>[% END %]
+				</p>
+				<p>
+					<label for="phone" class="w-230 ar mr-6">Контактный телефон: <span class="star">*</span></label>
+					<input class="w-220 required[% IF errors.phone %] error-field[% END %]" data-err-msg-empty="вы не указали телефон" data-err-msg-correct="вы не верно указали телефон" id="phone" name="phone"  data-type="tel" type="text" value="[% form_vls.phone %]" [% IF login_info %]readonly[% END %] />
+					[% IF errors.phone %]<span class="error-message">[% errors.phone %]</span>[% END %]
+				</p>
+				<p>
+					<label for="email" class="w-230 ar mr-6">E-mail:<span class="star">*</span></label>
+					<input class="w-220 required[% IF errors.email %] error-field[% END %]" data-err-msg-empty="вы не указали e-mail" data-err-msg-correct="вы не верно указали e-mail" id="email" type="text" name="email" value="[% form_vls.email %]" [% IF login_info %]readonly[% END %] />
+					[% IF errors.email %]<span class="error-message">[% errors.email %]</span>[% END %]
+
+				</p>
+				<p>
+					<label for="info" class="w-230 ar mr-6">Дополнительная информация:</label>
+					<textarea class="w-220" id="info" name="moreinfo" rows="5">[% form_vls.moreinfo %]</textarea>
+
+				</p>
+				<p class="mb-22">
+					<label for="captcha" class="w-230 ar mr-6">Проверочный код: <span class="star">*</span></label>
+					<script>out_capture()</script>
+					<input class="required w-110[% IF errors.capture %] error-field[% END %]" name="capture_str" data-err-msg-empty="вы не указали код" id="captcha" type="text" value="" />
+					[% IF errors.capture %]<span class="error-message">[% errors.capture %]</span>[% END %]
+				</p>
+				<p style="padding-left:238px;">
+					<button type="submit" class="button1"><span>Оформить заказ</span></button>
+				</p>
+				
+				[%# USE Dumper %][%# Dumper.dump_html(form_vls2) %]
+
+				<input type='hidden' name='city' value='[% form_vls2.city %]' />
+				<input type='hidden' name='pay' value='[% form_vls2.pay %]' />
+				<input type='hidden' name='usl_dost' value='[% form_vls2.usl_dost %]' />
+				<input type='hidden' name='ship_street' value='[% form_vls2.ship_street %]' />
+				<input type='hidden' name='ship_house' value='[% form_vls2.ship_house %]' />
+				<input type='hidden' name='ship_korp' value='[% form_vls2.ship_korp %]' />				
+				<input type='hidden' name='ship_flat' value='[% form_vls2.ship_flat %]' />
+
+			<p class="f-10">Заполняя форму, Вы даете согласие на <a href="/securitypolicy">обработку своих персональных данных</a></p></form>
+				[% ELSE %]
+					<div class="h3">Ошибка!</div>
+					<p>Не все поля формы доставки заполнены:</p>
+					[%  FOREACH key IN errors.keys %]
+						<p style='color: red;'>[% errors.$key %]</p> 
+					[% END %]
+					
+					<p class="mb-65">Повторите заполнение формы<a href="javascript: history.back();" class="button1 ml-12"><span>назад</span></a></p>
+
+				
+				[% END %]
+			
+			[% END %]
+
+			
+			[% IF BASKETSTEP==3 %]
+
+				[% IF form_status == 'error' || form_status == 'send_no' %]
+				
+			<div class="h3">Контактные данные</div>
+			<p class="cx"><span class="fl">Укажите Ваши контактные данные:</span>[% IF !login_info %]<span class="fr"><a href="/signin">Регистрировались ранее?</a></span></p>[% END %]
+			<form class="ph-8 required" method="get" action="/basket/3">
+			<input type='hidden' name='action' value='form_send'>
+			<input type='hidden' name='type' value='order'>
+			<script src='/js/ajax.js'></script>
+				<p>
+					<label for="name" class="w-230 ar mr-6">ФИО: <span class="star">*</span></label>
+					<input class="w-220 required[% IF errors.name %] error-field[% END %]" data-err-msg-empty="вы не представились" id="name" name="name" type="text" value="[% form_vls.name %]" [% IF login_info %]readonly[% END %] />
+					[% IF errors.name %]<span class="error-message">[% errors.name %]</span>[% END %]
+				</p>
+				<p>
+					<label for="phone" class="w-230 ar mr-6">Контактный телефон: <span class="star">*</span></label>
+					<input class="w-220 required[% IF errors.phone %] error-field[% END %]" data-err-msg-empty="вы не указали телефон" data-err-msg-correct="вы не верно указали телефон" id="phone" name="phone"  data-type="tel" type="text" value="[% form_vls.phone %]" [% IF login_info %]readonly[% END %] />
+					[% IF errors.phone %]<span class="error-message">[% errors.phone %]</span>[% END %]
+				</p>
+				<p>
+					<label for="email" class="w-230 ar mr-6">E-mail:</label>
+					<input class="w-220 required[% IF errors.email %] error-field[% END %]" id="email" type="text" name="email" value="[% form_vls.email %]" [% IF login_info %]readonly[% END %] />
+					[% IF errors.email %]<span class="error-message">[% errors.email %]</span>[% END %]
+
+				</p>
+				<p>
+					<label for="info" class="w-230 ar mr-6">Дополнительная информация:</label>
+					<textarea class="w-220" id="info" name="moreinfo" rows="5">[% form_vls.moreinfo %]</textarea>
+
+				</p>
+				<p class="mb-22">
+					<label for="captcha" class="w-230 ar mr-6">Проверочный код: <span class="star">*</span></label>
+					<script>out_capture()</script>
+					<input class="required w-110[% IF errors.capture %] error-field[% END %]" name="capture_str" data-err-msg-empty="вы не указали код" id="captcha" type="text" value="" />
+					[% IF errors.capture %]<span class="error-message">[% errors.capture %]</span>[% END %]
+				</p>
+				<p style="padding-left:238px;">
+					<button type="submit" class="button1"><span>Оформить заказ</span></button>
+				</p>
+				
+				[%# USE Dumper %][%# Dumper.dump_html(form_vls2) %]
+
+				<input type='hidden' name='city' value='[% form_vls2.city %]' />
+				<input type='hidden' name='pay' value='[% form_vls2.pay %]' />
+				<input type='hidden' name='usl_dost' value='[% form_vls2.usl_dost %]' />
+				<input type='hidden' name='ship_street' value='[% form_vls2.ship_street %]' />
+				<input type='hidden' name='ship_house' value='[% form_vls2.ship_house %]' />
+				<input type='hidden' name='ship_korp' value='[% form_vls2.ship_korp %]' />				
+				<input type='hidden' name='ship_flat' value='[% form_vls2.ship_flat %]' />
+
+			<p class="f-10">Заполняя форму, Вы даете согласие на <a href="/securitypolicy">обработку своих персональных данных</a></p></form>
+				[% ELSE %]
+				
+				<p>Ваш заказ успешно оформлен. Номер заказа [% zakaz_id %].</p>
+					[% IF newuser== 1 %]
+					<p>При оформлении заказа для вас была создана учетная запись для входа на сайт. Данные для входа отправлены на указаный при оформлении заказа электронный адрес.</p>
+					[% END %]				
+
+				
+				[% END %]
+
+				
+			
+			[% END %]
+			
+			

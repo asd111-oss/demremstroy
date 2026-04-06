@@ -1,0 +1,98 @@
+
+    <div id="modal__feedback" class="modal js-modal[% ' hidden' IF !pfb_err || pfb_err == 1 || pfb_err == 0 %]">
+        <div class="modal__inner js-modal_hide">
+            <div class="modal__horisontal_inner js-modal_hide">
+
+                <div class="modal__vertical_inner js-modal_hide">
+                    <div class="modal__content">
+
+                        <div class="h1 mb-36"><span class="text">ОТПРАВИТЬ ЗАЯВКУ</span></div>
+                        [% IF pfb_err && pfb_err != 1 && pfb_err != 0 ; FOREACH e IN pfb_err %]
+                          <p style="color:#f00;">[% e %]</p>
+                        [% END ; END %]
+
+                        <form class="ph-10 js-validate" method="post" action="" onsubmit="yaCounter46877508.reachGoal('order_form');return true;">
+                          <input type="hidden" name="pfb" value="form_send">
+                          <input type="hidden" name="af" value="pfb">
+                            <p>
+                                <label class="w-170 mr-10 pt-6 ar" for="name">ФИО:</label>
+                                <input id="name" name="name" value="[% form_vls.name UNLESS pfb_err == 1 %]" class="field w-320 mr-3" type="text" required="required" data-error-message-empty="вы не представились"/>
+                                <span class="star">*</span>
+                            </p>
+
+                            <p>
+                                <label class="w-170 mr-10 pt-6 ar" for="email">e-mail:</label>
+                                <input id="email" name="email" value="[% form_vls.email UNLESS pfb_err == 1 %]" class="field w-320 mr-3" type="email" required="required" data-error-message-empty="вы не указали email" data-error-message-correct="вы не верно указали email"/>
+                                <span class="star">*</span>
+                            </p>
+
+                            <p>
+                                <label class="w-170 mr-10 pt-6 ar" for="phone">телефон:</label>
+                                <input id="phone" name="phone" value="[% form_vls.phone UNLESS pfb_err == 1 %]" class="field w-320 mr-3" type="tel" required="required" data-error-message-empty="вы не указали телефон" data-error-message-correct="вы не верно указали телефон"/>
+                                <span class="star">*</span>
+                            </p>
+
+                            <p>
+                                <label class="w-170 mr-10 pt-6 ar" for="question">Текст заявки:</label>
+                                <textarea id="question" name="message" value="[% form_vls.message UNLESS pfb_err == 1 %]" class="field w-320 mr-3" rows="4">[% form_vls.message UNLESS pfb_err == 1 %]</textarea>
+                                <span class="star">*</span>
+                            </p>
+
+                            <p>
+                                <label class="w-170 mr-10 pt-6 ar" for="captcha">проверочный код:</label>
+                                <span class="captcha w-75 mr-2"><script>out_capture();</script></span>
+                                <input id="captcha" name="capture_str" class="field w-240 mr-3" type="text" required="required" data-error-message-empty="вы не представились"/>
+                                <span class="star">*</span>
+                            </p>
+
+                            <p style="width: 505px" class="ar">
+                                <button class="btn_2" type="submit">отправить</button>
+                            </p>
+                        <p class="f-10">Заполняя форму, Вы даете согласие на <a href="/securitypolicy">обработку своих персональных данных</a></p></form>
+
+                        <a class="modal__close_btn js-modal_hide" href="#">x</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="modal__bg js-modal_hide"></div>
+    </div>
+
+    <div id="modal__thanks" class="modal js-modal[% ' hidden' UNLESS pfb_err == 1 %]">
+        <div class="modal__inner js-modal_hide">
+            <div class="modal__horisontal_inner js-modal_hide">
+
+                <div class="modal__vertical_inner js-modal_hide">
+                    <div class="modal__content" style="width: 540px">
+
+                        <div class="h1 mb-36"><span class="text">СПАСИБО!</span></div>
+
+                        <p>Ваше сообщение отправлено.</p>
+
+                        <a class="modal__close_btn js-modal_hide" href="#">x</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="modal__bg js-modal_hide"></div>
+    </div>
+
+
+    <div id="js-modal" class="modal hidden">
+        <div class="modal__inner js-modal_hide">
+            <div class="modal__horisontal_inner js-modal_hide">
+
+                <div class="modal__vertical_inner js-modal_hide">
+                    <div class="modal__content">
+                        <div class="modal__body js-modal__body"></div>
+
+                        <a class="modal__close_btn js-modal_hide" href="#">x</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="modal__bg js-modal_hide"></div>
+    </div>

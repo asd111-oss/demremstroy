@@ -1,0 +1,32 @@
+[% BLOCK OLD %]
+
+ <nav class="pages">
+                    <ul class="s list">
+                        <li class="item">1</li>
+                        <li class="item"><a class="link" href="#">2</a></li>
+                        <li class="item"><a class="link" href="#">3</a></li>
+                        <li class="item"><a class="link" href="#">4</a></li>
+                        <li class="item"><a class="link" href="#">5</a></li>
+                    </ul>
+                </nav>
+
+[% END %]
+
+[%IF !(href) ; href = const.PATH_INFO ; END%]
+[%IF maxpage> 1%]
+<nav class="pages"><ul class="s list">
+[% len_block = 5 ; IF page>1 %]<li class="item"><a class="link" href="[%href ; IF (page - 1)> 1 %]/page=[%(page - 1) ; END %][%add_params%]">&lt;&lt;</a></li>[% END ; cur_page = 1 %]
+[% WHILE (cur_page<=maxpage) %] 
+  [% IF cur_page == 1 && page != cur_page%]<li class="item"><a class="link" href="[%href ; add_params%]">[%cur_page%]</a></li>
+  [% ELSIF (cur_page == 1 && page == cur_page) || cur_page == page %]<li class="item">[%cur_page%]</li>
+  [% ELSIF cur_page < ( page - len_block ) %]<li class="item">...</li>[% cur_page =  ( page - len_block ) ; NEXT %]
+  [% ELSIF cur_page> ( page + len_block ) %]<li class="item">...</li>[% LAST %]
+  [% ELSE %]
+  <li class="item"><a class="link" href="[%href%]/page=[%cur_page%][%add_params%]">[%cur_page%]</a></li>
+  [% END %]
+  [% cur_page = cur_page + 1 %]
+[% END %]
+
+[% IF cur_page<maxpage %]<li class="item"><a class="link" href="[%href%]/page=[%(page + 1)%][%add_params%]">&gt;&gt;</a></li>[%END%]
+</ul></nav>
+[%END%]

@@ -1,0 +1,74 @@
+            <!--// header //-->
+            <header class="header">
+
+                <div class="logo"><a class="link" href="/"></a></div>
+
+                <nav class="nav">
+                    <ul class="s list">
+                    [% FOREACH top_menu %]
+                      <li class="item">
+                        <a class="link" href="[% url %]">[% header %]</a>
+                        [% IF child.size %]
+                            <nav class="nav__sub">
+                                <ul class="s list">
+                                [% FOREACH child %]
+                                  <li class="item"><a class="link" href="[% url %]">[% header %]</a></li>
+                                [% END %]
+                                </ul>
+                            </nav>
+                        [% END %]
+                      </li>
+                    [% END %]
+                    </ul>
+                    <div class="bg"></div>
+                </nav>
+
+                <div class="contacts">
+                    [% const.phone %]
+
+                    <div class="ico"></div>
+
+                    <div class="tlbg"></div>
+                    <div class="blbg"></div>
+                    <div class="trbg"></div>
+                    <div class="brbg"></div>
+                </div>
+
+                <div class="search">
+                    <form method="post" action="/search">
+                        <p><input class="field" type="text" name="search" value="" placeholder="ÔÓËÒÍ ÔÓ Ò‡ÈÚÛ"/>
+                            <button class="btn" type="submit"></button>
+                        </p>
+                    </form>
+                </div>
+
+                <div class="email">
+     		[% FOREACH e IN const.header_email.split(', ') %]
+                  <a class="link" href="mailto:[% e %]" onclick="yaCounter46877508.reachGoal('mail');return true;">[% e %]</a>
+                [% END %]
+                </div>
+                <div class="ask_question"><a class="link" href="/feedback" onclick="yaCounter46877508.reachGoal('question_click');return true;">«‡‰‡Ú¸ ‚ÓÔÓÒ</a></div>
+
+                <ul class="s fis">
+                    <li class="item" title="„Î‡‚Ì‡ˇ"><a class="link" href="/"></a></li>
+                    <li class="item" title="Í‡Ú‡ Ò‡ÈÚ‡"><a class="link1" href="/map"></a></li>
+                </ul>
+
+                <div class="promo">
+                    <div class="item">
+                        <div class="fig">
+                           <img class="img" src='[%TEMPLATE_FOLDER%]/images/pic8.jpg' alt=""/>
+
+                        </div>
+
+                        <a href="/genpodryad" class="text left">”—À”√» √≈Õ≈–¿À‹ÕŒ√Œ œŒƒ–ﬂƒ◊» ¿</a>
+
+                        <a href="/uk" class="text right">”—À”√» ”œ–¿¬ÀﬂﬁŸ≈…  ŒÃœ¿Õ»»</a>
+
+
+                    </div>
+                </div>
+
+                <div class="bg"></div>
+            </header>
+            <!--// end header //-->

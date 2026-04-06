@@ -1,0 +1,31 @@
+<html>
+	<head>
+	<title>Планировка этажей</title>
+	</head>
+	<body>
+		<table cellspacing=0 border=1 style="font-size: 12pt">
+			<tr>
+				<td>№ Этажа</td>
+				<td>Фото</td>
+				<td colspan=2>Прикрепить фото</td>
+			</tr>
+			[% i=1 %]
+			[% WHILE floors.header >= i %]
+				<form method=post enctype="multipart/form-data">
+				<input type=hidden name=parent_id value='[% parent_id %]'>
+				<input type=hidden name=floor_number value='[% i %]'>
+				<tr>
+					<td>Этаж [% i %]</td>
+					<td><img src="/files/project_1834/plans/[% plan.$i.photo %]" onclick="if(confirm('Удалить план?')) {window.location='./plans.pl?plan_del=[% plan.$i.id %]&parent_id=[% parent_id %]'}"></td>
+					<td><input type=file name=fh size=30></td>
+					<td><input type=submit name=plan_add value='Сохранить'></td>
+				</tr>
+				</form>
+			[% i=i+1 %]
+			[% END %]
+		</table>
+
+		<br><font style="font-size: 8pt; color: red;">Для удаления картинки нужно на нее кликнуть</font>
+
+	</body>
+</html>

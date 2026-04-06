@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use CGI qw/:standard :param/;
+use Log::Any '$log';
+use Data::Dumper;
+use Log::Any::Adapter('File','/www/sv-cms/htdocs/admin/logs/TOP_MENU.log','log_level','debug');
+use lib '/www/sv-cms/htdocs/lib';
+use appdbh;
+
+
+my $dbh = appdbh->new;
+my $dbg = '[debug]['.$ENV{REMOTE_ADDR}.']['.$ENV{HTTP_HOST}.']';
+$log->debug($dbg,Dumper($ENV));
+

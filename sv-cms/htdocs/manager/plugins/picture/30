@@ -1,0 +1,96 @@
+$VAR1 = '../../../files/project_4180/services/1482234994_1.jpg';
+$VAR1 = '--output_file=../files/project_4180/services/1482234994_1_mini1.jpg';
+$VAR1 = '--type=new';
+$VAR1 = '--crop=0x910';
+$VAR1 = '--size=1239x0';
+$VAR1 = '--output_file=../files/project_4180/services/1482234994_1_mini2.jpg';
+$VAR1 = '--type=new';
+$VAR1 = '--crop=211x0';
+$VAR1 = '--size=0x211';
+$VAR1 = '--output_file=../files/project_4180/services/1482234994_1_mini3.jpg';
+$VAR1 = '--type=new';
+$VAR1 = '--quality=';
+$VAR1 = '--crop=800x0';
+$VAR1 = '--size=0x910';
+$VAR1 = {
+          'xypos' => '+0+0',
+          'width' => '1239',
+          'wm' => undef,
+          'wmtext' => undef,
+          'file' => '../files/project_4180/services/1482234994_1_mini1.jpg',
+          'wmxy' => undef,
+          'wmfcolor1' => undef,
+          'wmfcolor2' => undef,
+          'sigma' => undef,
+          'wmresize' => undef,
+          'crop_x' => '0',
+          'crop' => '0x910',
+          'wmpos' => undef,
+          'radius' => undef,
+          'wmfsize' => undef,
+          'wmfile' => undef,
+          'height' => '0',
+          'crop_y' => '910',
+          'resize' => '1239x',
+          'type' => 'new',
+          'wmy' => undef,
+          'gravity' => 'Center',
+          'wmdeg' => undef,
+          'wmx' => undef
+        };
+Ресайз: 1239 x 910 => 1239x	Пишем: ../files/project_4180/services/1482234994_1_mini1.jpg
+<br/>$VAR1 = {
+          'xypos' => '+0+0',
+          'width' => '0',
+          'wm' => undef,
+          'wmtext' => undef,
+          'file' => '../files/project_4180/services/1482234994_1_mini2.jpg',
+          'wmxy' => undef,
+          'wmfcolor1' => undef,
+          'wmfcolor2' => undef,
+          'sigma' => undef,
+          'wmresize' => undef,
+          'crop_x' => '211',
+          'crop' => '211x0',
+          'wmpos' => undef,
+          'radius' => undef,
+          'wmfsize' => undef,
+          'wmfile' => undef,
+          'height' => '211',
+          'crop_y' => '0',
+          'resize' => 'x211',
+          'type' => 'new',
+          'wmy' => undef,
+          'gravity' => 'Center',
+          'wmdeg' => undef,
+          'wmx' => undef
+        };
+Ресайз: 1239 x 910 => x211	Кропим: 211x0+0+0 Center	Пишем: ../files/project_4180/services/1482234994_1_mini2.jpg
+<br/>$VAR1 = {
+          'xypos' => '+0+0',
+          'width' => '0',
+          'wm' => undef,
+          'wmtext' => undef,
+          'file' => '../files/project_4180/services/1482234994_1_mini3.jpg',
+          'wmxy' => undef,
+          'wmfcolor1' => undef,
+          'wmfcolor2' => undef,
+          'sigma' => undef,
+          'wmresize' => undef,
+          'crop_x' => '800',
+          'crop' => '800x0',
+          'wmpos' => undef,
+          'radius' => undef,
+          'wmfsize' => undef,
+          'wmfile' => undef,
+          'height' => '910',
+          'crop_y' => '0',
+          'resize' => 'x910',
+          'type' => 'new',
+          'wmy' => undef,
+          'gravity' => 'Center',
+          'wmdeg' => undef,
+          'wmx' => undef
+        };
+Ресайз: 1239 x 910 => x910	Кропим: 800x0+0+0 Center	Пишем: ../files/project_4180/services/1482234994_1_mini3.jpg
+<br/>

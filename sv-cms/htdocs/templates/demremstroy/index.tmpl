@@ -1,0 +1,27 @@
+<!doctype html>
+<!--[if IE 7]><html class="no-js ie ie7" lang="ru"><![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8" lang="ru"><![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9" lang="ru"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="ru"><!--<![endif]-->
+[% INCLUDE head.tmpl %]
+<body>
+  <!--// wrapper //-->
+  <div class="wrapper">
+    <div class="helper">
+      <div class="inner">
+        [% INCLUDE header.tmpl %]
+        [% INCLUDE aside.tmpl IF page_type != 'main' %]
+        [% INCLUDE content.tmpl %]
+        [%# IF promo.body %]
+          <div class="promobox">[% promo.body %]</div>
+        [%# END %]
+      </div>
+    </div>
+    
+    [% INCLUDE footer.tmpl %]
+    
+    [% INCLUDE popup.tmpl %]
+  </div>  
+  <!--// wrapper //-->
+</body>
+</html>

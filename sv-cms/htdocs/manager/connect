@@ -1,0 +1,7 @@
+our ($svcms_host);
+do '/var/www/connectDB.conf';
+
+$DBname='svcms';
+$DBhost='localhost',#$svcms_host;
+$DBuser='svcms';
+$DBpassword=''; #'svcms';

@@ -1,0 +1,33 @@
+    <!--// footer //-->
+    <footer class="footer">
+
+        <div class="in">
+
+            <div class="social">
+            [% INCLUDE social.tmpl %]
+            </div>
+
+            <nav class="foot__nav">
+                <ul class="s list">
+                [% FOREACH top_menu %]
+                    <li class="item"><a class="link" href="[% url %]">[% header %]</a></li>
+                [% END %]
+                </ul>
+            </nav>
+
+            <div class="counters">
+                [% const.counter %]
+            </div>
+
+            <div class="design"><a class="link" href="https://digitalstrateg.ru">Разработка сайта: <span class="b2b">Диджитал Стратег</span></a></div>
+
+            <div class="copyright">
+                <p>[% const.copy %]</p>
+
+                [% const.footer_phone %]
+            </div>
+
+        </div>
+      
+    </footer>
+    <!--// end footer //-->
