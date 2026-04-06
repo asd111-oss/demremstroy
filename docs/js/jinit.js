@@ -1,6 +1,18 @@
 var html = document.documentElement; // html element
 var path = './'; // location scripts and styles
 
+// Disable link interception for navigation
+$(document).on('click', 'nav.nav a.link', function(e) {
+    var href = $(this).attr('href');
+    if(href && href !== '#') {
+        e.stopImmediatePropagation();
+        e.preventDefault();
+        window.location.href = href;
+        return false;
+    }
+});
+
+
 
 
 

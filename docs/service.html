@@ -353,18 +353,5 @@
 </div>
 
 <!--// wrapper //-->
-<script>
-// Ensure navigation links work properly
-document.querySelectorAll('nav.nav > ul > li > a.link').forEach(function(link) {
-    if(link.getAttribute('href') && link.getAttribute('href') !== '#') {
-        link.addEventListener('click', function(e) {
-            // Allow default behavior for real links
-            if(this.getAttribute('href').startsWith('.') || this.getAttribute('href').startsWith('/')) {
-                return true;
-            }
-        });
-    }
-});
-</script>
 </body>
 </html>
