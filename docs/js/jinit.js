@@ -1,5 +1,6 @@
 var html = document.documentElement; // html element
-var path = '/templates/demremstroy/'; // location scripts and styles
+var path = './'; // location scripts and styles
+
 
 
 
