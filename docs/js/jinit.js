@@ -1,6 +1,18 @@
 var html = document.documentElement; // html element
 var path = './'; // location scripts and styles
 
+// Global handler for ALL links with real hrefs - this runs first
+document.addEventListener('click', function(e) {
+    if (e.target && e.target.tagName === 'A') {
+        var href = e.target.getAttribute('href');
+        // Allow navigation for real page links
+        if(href && href !== '#' && !href.startsWith('javascript:') && href.endsWith('.html')) {
+            e.preventDefault();
+            window.location.href = href;
+        }
+    }
+}, true); // Use capture phase to run before other handlers
+
 // Handle main navigation links (but not submenu links)
 $(document).on('click', 'nav.nav > ul > li > a.link', function(e) {
     var href = $(this).attr('href');
@@ -8,6 +20,26 @@ $(document).on('click', 'nav.nav > ul > li > a.link', function(e) {
     if(href && href !== '#' && !href.match(/^(javascript:|#)/)) {
         e.preventDefault();
         e.stopImmediatePropagation();
+        window.location.href = href;
+        return false;
+    }
+});
+
+// Allow content links to work properly
+$(document).on('click', 'div.col a.link', function(e) {
+    var href = $(this).attr('href');
+    if(href && href !== '#' && !href.match(/^(javascript:|#)/)) {
+        e.preventDefault();
+        window.location.href = href;
+        return false;
+    }
+});
+
+// Allow footer links to work properly
+$(document).on('click', 'nav.foot__nav a.link', function(e) {
+    var href = $(this).attr('href');
+    if(href && href !== '#' && !href.match(/^(javascript:|#)/)) {
+        e.preventDefault();
         window.location.href = href;
         return false;
     }
