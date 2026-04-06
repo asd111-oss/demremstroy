@@ -1,12 +1,13 @@
 var html = document.documentElement; // html element
 var path = './'; // location scripts and styles
 
-// Disable link interception for navigation
-$(document).on('click', 'nav.nav a.link', function(e) {
+// Handle main navigation links (but not submenu links)
+$(document).on('click', 'nav.nav > ul > li > a.link', function(e) {
     var href = $(this).attr('href');
-    if(href && href !== '#') {
-        e.stopImmediatePropagation();
+    // Only redirect if it's a real page link (not a hash/anchor)
+    if(href && href !== '#' && !href.match(/^(javascript:|#)/)) {
         e.preventDefault();
+        e.stopImmediatePropagation();
         window.location.href = href;
         return false;
     }
